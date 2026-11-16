@@ -1,14 +1,14 @@
 {
-  "date": "2026-11-12",
-  "headline": "Giants on Thursday Night Football, then England's first ODI in Perth.",
+  "date": "2026-11-16",
+  "headline": "The Grand Slam of Darts group stage ends this afternoon, and England's third ODI in Hobart is Tuesday night.",
   "today": [
-    "8:15 PM: Commanders at Giants, Prime Video.",
-    "10:30 PM: Australia v England, 1st ODI. Probably Willow."
+    "2:00 PM: Grand Slam of Darts, final group games for Groups A to H, ESPN+/Hulu Live.",
+    "7:30 PM: Canadiens at Rangers, Hulu Live.",
+    "Tue 10:30 PM: Australia v England, 3rd ODI in Hobart, Willow."
   ],
   "recaps": [
-    {
-      "text": "England beat Croatia 2-1 at home in the Nations League."
-    }
+    { "text": "Kyren Wilson beat Chris Wakelin 10-8 in the Champion of Champions final in Leicester on Sunday, his third title in a row." },
+    { "text": "Stephen Bunting is out of the Grand Slam of Darts after a 5-2 loss to Cameron Menzies, who won Group D." }
   ],
-  "lookAhead": "Saturday is the big day: Bunting opens the Grand Slam of Darts at 8:00 AM, then Wales v New Zealand at 9:10 AM and England v Japan at 11:40 AM."
+  "lookAhead": "Saturday has England v New Zealand at 9:10 AM and Arsenal at Newcastle at 12:30 PM; the Jets visit the Chargers on Sunday at 4:05 PM."
 }
