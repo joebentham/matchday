@@ -255,6 +255,14 @@ final class Store: ObservableObject {
     /// Current size of the visible pill, reported by the view, used for hit-testing the mouse.
     var pillSize = CGSize(width: 290, height: 30)
     @Published var loaded = false
+    /// The last fetch of today.json failed (offline, or the board not published yet). Cleared by the next good load.
+    @Published var loadFailed = false
+    private var retryPending = false
+    /// What to say when there are no games to list: empty schedule, still loading, or the board can't be reached.
+    var emptyText: String {
+        if loaded { return "Nothing on the schedule right now." }
+        return loadFailed ? "Can't reach the board · retrying" : "Loading…"
+    }
     private var liveIds: Set<String> = []
     private var lastActive: Date?
     private var lingerId: String?
@@ -398,11 +406,25 @@ final class Store: ObservableObject {
         var req = URLRequest(url: dataURL)
         req.cachePolicy = .reloadIgnoringLocalCacheData
         URLSession.shared.dataTask(with: req) { [weak self] data, _, _ in
-            guard let data = data, let p = try? JSONDecoder().decode(Payload.self, from: data) else { return }
+            guard let data = data, let p = try? JSONDecoder().decode(Payload.self, from: data) else {
+                // Keep whatever was loaded before, and try again in 30 s rather than waiting for the 5-minute refresh.
+                DispatchQueue.main.async {
+                    guard let self = self else { return }
+                    self.loadFailed = true
+                    guard !self.retryPending else { return }
+                    self.retryPending = true
+                    DispatchQueue.main.asyncAfter(deadline: .now() + 30) { [weak self] in
+                        self?.retryPending = false
+                        self?.load()
+                    }
+                }
+                return
+            }
             DispatchQueue.main.async {
                 self?.events = p.events + (fakeLive ? fakeEvents() : [])
                 let first = self?.loaded == false
                 self?.loaded = true
+                self?.loadFailed = false
                 self?.tick()
                 // `--demo` opens the island once at launch, for checking the expanded layout.
                 if first, CommandLine.arguments.contains("--demo") { self?.announce() }
@@ -598,7 +620,7 @@ struct IslandView: View {
                         .padding(.top, 8)
                 }
             } else {
-                Text(store.loaded ? "Nothing on the schedule right now." : "Loading…")
+                Text(store.emptyText)
                     .font(.system(size: 13)).foregroundStyle(.white.opacity(0.7))
             }
             if !store.later.isEmpty {
@@ -790,7 +812,7 @@ final class AppDelegate: NSObject, NSApplicationDelegate, NSMenuDelegate {
             items.append(e)
         }
         items = Array(items.prefix(5))
-        if items.isEmpty { menu.addItem(NSMenuItem(title: "Nothing on the schedule", action: nil, keyEquivalent: "")) }
+        if items.isEmpty { menu.addItem(NSMenuItem(title: store.emptyText, action: nil, keyEquivalent: "")) }
         for e in items {
             let when = store.isLive(e) ? "LIVE" : store.isEnded(e) ? "Ended" : store.whenText(e)
             let title = "\(e.emoji)  \(e.isMine ? "★ " : "")\(e.title) · \(when) · \(e.whereText)"
