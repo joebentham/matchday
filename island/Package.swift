@@ -2,7 +2,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "SportBrainIsland",
+    name: "MatchdayIsland",
     platforms: [.macOS(.v14)],
-    targets: [.executableTarget(name: "SportBrainIsland", path: "Sources/SportBrainIsland")]
+    targets: [.executableTarget(name: "MatchdayIsland", path: "Sources/MatchdayIsland")]
 )

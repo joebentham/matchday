@@ -3,8 +3,8 @@ import Combine
 import ServiceManagement
 import SwiftUI
 
-let pageURL = URL(string: "https://joebentham.github.io/sport-brain/")!
-let dataURL = URL(string: "https://joebentham.github.io/sport-brain/data/today.json")!
+let pageURL = URL(string: "https://joebentham.github.io/matchday/")!
+let dataURL = URL(string: "https://joebentham.github.io/matchday/data/today.json")!
 let espnBase = "https://site.api.espn.com/apis/site/v2/sports"
 
 // MARK: - Data
@@ -107,13 +107,13 @@ struct Event: Codable, Identifiable {
 
 // MARK: - Apple TV
 
-/// Bridge to appletv/sportbrain_atv.py (copied into the app bundle by build.sh), which wakes the Apple TV and
+/// Bridge to appletv/matchday_atv.py (copied into the app bundle by build.sh), which wakes the Apple TV and
 /// opens the app over pyatv. Ready once appletv/setup.sh has made the Python environment and paired.
 enum AppleTV {
     static let support = FileManager.default.homeDirectoryForCurrentUser
-        .appendingPathComponent("Library/Application Support/SportBrain")
+        .appendingPathComponent("Library/Application Support/Matchday")
     static var python: URL { support.appendingPathComponent("venv/bin/python") }
-    static var script: URL? { Bundle.main.url(forResource: "sportbrain_atv", withExtension: "py") }
+    static var script: URL? { Bundle.main.url(forResource: "matchday_atv", withExtension: "py") }
     static var setupScript: URL? { Bundle.main.url(forResource: "setup", withExtension: "sh") }
     private static var cache: (stamp: Date, apps: [String: String])?
 
@@ -153,8 +153,8 @@ enum AppleTV {
             p.arguments = [script.path, "launch", key] + (url.map { ["--url", $0] } ?? [])
             let pipe = Pipe()
             p.standardOutput = pipe
-            // The launcher's stderr goes to ~/Library/Logs/SportBrain/appletv.log, so failures can be diagnosed.
-            let logDir = FileManager.default.homeDirectoryForCurrentUser.appendingPathComponent("Library/Logs/SportBrain")
+            // The launcher's stderr goes to ~/Library/Logs/Matchday/appletv.log, so failures can be diagnosed.
+            let logDir = FileManager.default.homeDirectoryForCurrentUser.appendingPathComponent("Library/Logs/Matchday")
             try? FileManager.default.createDirectory(at: logDir, withIntermediateDirectories: true)
             let logURL = logDir.appendingPathComponent("appletv.log")
             if !FileManager.default.fileExists(atPath: logURL.path) { FileManager.default.createFile(atPath: logURL.path, contents: nil) }
@@ -217,9 +217,9 @@ let dayFormatter: DateFormatter = {
     return f
 }()
 
-/// Debug: `--fake-live` (or SPORT_BRAIN_FAKE_LIVE=1) adds two made-up games, one live and one about to start,
+/// Debug: `--fake-live` (or MATCHDAY_FAKE_LIVE=1) adds two made-up games, one live and one about to start,
 /// so the switcher and show/hide logic can be checked when nothing real is on. Off in normal launches.
-let fakeLive = CommandLine.arguments.contains("--fake-live") || ProcessInfo.processInfo.environment["SPORT_BRAIN_FAKE_LIVE"] == "1"
+let fakeLive = CommandLine.arguments.contains("--fake-live") || ProcessInfo.processInfo.environment["MATCHDAY_FAKE_LIVE"] == "1"
 let launchedAt = Date()
 
 func fakeEvents() -> [Event] {
@@ -517,7 +517,7 @@ struct IslandView: View {
         let ended = t.map(store.isEnded) ?? false
         let others = store.active.filter { $0.id != t?.id }.count
         let left: String = {
-            guard let t = t else { return store.loaded ? "Nothing on" : "Sport Brain" }
+            guard let t = t else { return store.loaded ? "Nothing on" : "Matchday" }
             if store.hasScore(t) && !store.scoreHidden(t) { return t.scoreLine }
             return t.matchup
         }()
@@ -820,7 +820,7 @@ final class AppDelegate: NSObject, NSApplicationDelegate, NSMenuDelegate {
             }
         }
         menu.addItem(.separator())
-        menu.addItem(ClosureItem("Open Sport Brain") { NSWorkspace.shared.open(pageURL) })
+        menu.addItem(ClosureItem("Open Matchday") { NSWorkspace.shared.open(pageURL) })
         menu.addItem(ClosureItem(AppleTV.isReady ? "Re-pair Apple TV…" : "Set up Apple TV…") { AppleTV.openSetup() })
         menu.addItem(ClosureItem("Show island", checked: !islandHidden) { [weak self] in
             guard let self = self else { return }

@@ -9,22 +9,22 @@ The TV itself wakes over HDMI-CEC when the Apple TV does.
 appletv/setup.sh
 ```
 
-or **Set up Apple TV…** in the Sport Brain menu bar menu (opens the same script in Terminal).
-It makes a private Python environment at `~/Library/Application Support/SportBrain/venv`, installs pyatv,
+or **Set up Apple TV…** in the Matchday menu bar menu (opens the same script in Terminal).
+It makes a private Python environment at `~/Library/Application Support/Matchday/venv`, installs pyatv,
 finds the Apple TV, and asks for the 4-digit PIN the TV shows. Then it reads the list of installed apps
 and saves which app each service opens. Run it again any time to re-pair or after installing new apps.
 
 Nothing secret lives in this folder. Pairing credentials are in
-`~/Library/Application Support/SportBrain/appletv-credentials.json` (mode 600); the service → app map is
+`~/Library/Application Support/Matchday/appletv-credentials.json` (mode 600); the service → app map is
 `appletv.json` next to it. No passwords are involved: streaming sign-ins stay on the Apple TV.
 
 ## Using the launcher directly
 
 ```bash
-PY="$HOME/Library/Application Support/SportBrain/venv/bin/python"
-"$PY" appletv/sportbrain_atv.py launch hulu        # wake + open Hulu
-"$PY" appletv/sportbrain_atv.py apps               # list installed apps, refresh the map
-"$PY" appletv/sportbrain_atv.py status             # paired? which services have apps?
+PY="$HOME/Library/Application Support/Matchday/venv/bin/python"
+"$PY" appletv/matchday_atv.py launch hulu        # wake + open Hulu
+"$PY" appletv/matchday_atv.py apps               # list installed apps, refresh the map
+"$PY" appletv/matchday_atv.py status             # paired? which services have apps?
 ```
 
 `launch KEY [--url URL]` takes a service key from `config.json`. Exit codes: 0 opened, 1 Apple TV error,
@@ -49,7 +49,7 @@ for Apple TV app item pages (`https://tv.apple.com/...` with a path); if a URL f
 
 ## Service → tvOS app
 
-Matched by app name against the Apple TV's own app list at setup (see `SERVICE_APP_NAMES` in `sportbrain_atv.py`).
+Matched by app name against the Apple TV's own app list at setup (see `SERVICE_APP_NAMES` in `matchday_atv.py`).
 Confirmed from the Living Room Apple TV's own app list (12 Nov 2026, tvOS 27.2):
 
 | Service key | tvOS app | Bundle id |
@@ -66,7 +66,7 @@ Confirmed from the Living Room Apple TV's own app list (12 Nov 2026, tvOS 27.2):
 | netflix | Netflix | com.netflix.Netflix |
 
 Not installed, so the island offers only "Open on this Mac" for them: rugbypass, fandango, fubo, bein, flo.
-Install one on the Apple TV, then run `sportbrain_atv.py apps` (or setup again) to pick it up.
+Install one on the Apple TV, then run `matchday_atv.py apps` (or setup again) to pick it up.
 
 ## Known issue
 

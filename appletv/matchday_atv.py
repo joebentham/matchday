@@ -1,15 +1,15 @@
 #!/usr/bin/env python3
-"""Sport Brain -> Apple TV: wake the Apple TV and open the streaming app that has the game.
+"""Matchday -> Apple TV: wake the Apple TV and open the streaming app that has the game.
 
-Runs inside the virtual environment made by setup.sh (~/Library/Application Support/SportBrain/venv),
+Runs inside the virtual environment made by setup.sh (~/Library/Application Support/Matchday/venv),
 which holds pyatv. Talks to the Apple TV over Apple's Companion protocol, the same one the iPhone
 remote and the Shortcuts "Open App on Apple TV" action use.
 
-  sportbrain_atv.py scan                     list Apple TVs on the network
-  sportbrain_atv.py pair [--name NAME]       one-time pairing; asks for the PIN shown on the TV
-  sportbrain_atv.py apps                     list installed tvOS apps and refresh the service -> app map
-  sportbrain_atv.py launch KEY [--url URL]   wake the Apple TV and open the app for service KEY
-  sportbrain_atv.py status                   is everything set up? (no network)
+  matchday_atv.py scan                     list Apple TVs on the network
+  matchday_atv.py pair [--name NAME]       one-time pairing; asks for the PIN shown on the TV
+  matchday_atv.py apps                     list installed tvOS apps and refresh the service -> app map
+  matchday_atv.py launch KEY [--url URL]   wake the Apple TV and open the app for service KEY
+  matchday_atv.py status                   is everything set up? (no network)
 
 Files (all outside the repo, never committed):
   appletv-credentials.json  the pairing credentials (mode 600)
@@ -24,7 +24,7 @@ import os
 import sys
 from pathlib import Path
 
-SUPPORT = Path.home() / "Library" / "Application Support" / "SportBrain"
+SUPPORT = Path.home() / "Library" / "Application Support" / "Matchday"
 CREDS = SUPPORT / "appletv-credentials.json"
 APPMAP = SUPPORT / "appletv.json"
 
@@ -182,7 +182,7 @@ async def cmd_pair(args, loop):
         raise Fail(f"More than one Apple TV ({names}); run again with --name \"<one of those>\".")
     conf = confs[0]
     print(f"Pairing with {conf.name} ({conf.device_info.model_str}, tvOS {conf.device_info.version})...")
-    pairing = await pyatv.pair(conf, Protocol.Companion, loop, name="Sport Brain")
+    pairing = await pyatv.pair(conf, Protocol.Companion, loop, name="Matchday")
     try:
         await pairing.begin()
         if pairing.device_provides_pin:
@@ -270,7 +270,7 @@ async def cmd_status(args, loop):
 
 
 def main():
-    p = argparse.ArgumentParser(description="Sport Brain -> Apple TV")
+    p = argparse.ArgumentParser(description="Matchday -> Apple TV")
     sub = p.add_subparsers(dest="cmd", required=True)
     sub.add_parser("scan")
     pp = sub.add_parser("pair")

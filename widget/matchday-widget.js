@@ -2,18 +2,18 @@
 // These must be at the very top of the file. Do not edit.
 // icon-color: deep-gray; icon-glyph: futbol;
 
-// Sport Brain widget for the Scriptable app (https://scriptable.app).
+// Matchday widget for the Scriptable app (https://scriptable.app).
 // Shows the game that matters most right now: a live score, or what is next, when, and where to watch it.
 // Sizes: small, medium, and Lock Screen (rectangular, inline, circular).
 //
-// Data: the Sport Brain board's published today.json (rebuilt hourly). For any game that is live or
+// Data: the Matchday board's published today.json (rebuilt hourly). For any game that is live or
 // about to start, the widget also asks ESPN's public scoreboard for a fresher score.
 // iOS decides when widgets refresh, so live scores can be several minutes behind. Tap through for the latest.
 
-const DATA_URL = 'https://joebentham.github.io/sport-brain/data/today.json';
-const BOARD_URL = 'https://joebentham.github.io/sport-brain/';
+const DATA_URL = 'https://joebentham.github.io/matchday/data/today.json';
+const BOARD_URL = 'https://joebentham.github.io/matchday/';
 const SCOREBOARD = 'https://site.api.espn.com/apis/site/v2/sports/';
-const CACHE_FILE = 'sport-brain-widget-cache.json';
+const CACHE_FILE = 'matchday-widget-cache.json';
 
 // ---------------------------------------------------------------------------------------------
 // Pure logic (no Scriptable APIs). Kept the same as the web board's rules.
@@ -409,7 +409,7 @@ function buildRectangular(sel, info, now) {
   w.addAccessoryWidgetBackground = false;
   w.setPadding(0, 0, 0, 0);
   const e = sel.top;
-  if (!e) { txt(w, '🏟️ Sport Brain', Font.semiboldSystemFont(14), C.text); txt(w, 'Nothing scheduled', Font.systemFont(13), C.text); return w; }
+  if (!e) { txt(w, '🏟️ Matchday', Font.semiboldSystemFont(14), C.text); txt(w, 'Nothing scheduled', Font.systemFont(13), C.text); return w; }
   w.url = tapUrl(e);
   const p = phase(e, now);
   txt(w, `${icon(e.sport)} ${shortMatchup(e)}`, Font.semiboldSystemFont(15), C.text, { scale: 0.7 });
@@ -424,7 +424,7 @@ function buildRectangular(sel, info, now) {
 function buildInline(sel, info, now) {
   const w = new ListWidget();
   const e = sel.top;
-  if (!e) { txt(w, 'Sport Brain: nothing scheduled', Font.systemFont(12), C.text); return w; }
+  if (!e) { txt(w, 'Matchday: nothing scheduled', Font.systemFont(12), C.text); return w; }
   w.url = tapUrl(e);
   const p = phase(e, now);
   const tail = p === 'pre' ? (sameDay(new Date(e.start), now) ? timeText(new Date(e.start)) : whenText(e, now)) : stateLine(e, now);
@@ -448,7 +448,7 @@ function buildCircular(sel, info, now) {
 
 function emptyWidget(w, info) {
   w.url = BOARD_URL;
-  txt(w, '🏟️ Sport Brain', Font.semiboldSystemFont(14), C.text);
+  txt(w, '🏟️ Matchday', Font.semiboldSystemFont(14), C.text);
   w.addSpacer(4);
   txt(w, info.noData ? 'No connection yet. Will try again soon.' : 'Nothing on the schedule right now.', Font.systemFont(12), C.secondary, { lines: 3 });
   w.addSpacer();

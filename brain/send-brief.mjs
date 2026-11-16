@@ -7,7 +7,7 @@ import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
-const BOARD = 'https://joebentham.github.io/sport-brain/';
+const BOARD = 'https://joebentham.github.io/matchday/';
 const args = new Set(process.argv.slice(2));
 const dryRun = args.has('--dry-run');
 const force = args.has('--force');

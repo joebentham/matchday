@@ -2,17 +2,17 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-  <key>CFBundleName</key><string>Sport Brain Island</string>
-  <key>CFBundleDisplayName</key><string>Sport Brain Island</string>
-  <key>CFBundleIdentifier</key><string>local.sportbrain.island</string>
-  <key>CFBundleExecutable</key><string>SportBrainIsland</string>
+  <key>CFBundleName</key><string>Matchday Island</string>
+  <key>CFBundleDisplayName</key><string>Matchday Island</string>
+  <key>CFBundleIdentifier</key><string>local.matchday.island</string>
+  <key>CFBundleExecutable</key><string>MatchdayIsland</string>
   <key>CFBundlePackageType</key><string>APPL</string>
   <key>CFBundleShortVersionString</key><string>0.1</string>
   <key>CFBundleVersion</key><string>1</string>
   <key>LSMinimumSystemVersion</key><string>14.0</string>
   <key>LSUIElement</key><true/>
   <key>NSHighResolutionCapable</key><true/>
-  <key>NSLocalNetworkUsageDescription</key><string>Sport Brain finds your Apple TV on the home network to open the game there.</string>
+  <key>NSLocalNetworkUsageDescription</key><string>Matchday finds your Apple TV on the home network to open the game there.</string>
   <key>NSBonjourServices</key>
   <array>
     <string>_companion-link._tcp</string>

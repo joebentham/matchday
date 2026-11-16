@@ -6,9 +6,9 @@ import assert from 'node:assert/strict';
 import { fileURLToPath } from 'node:url';
 
 const here = fileURLToPath(new URL('.', import.meta.url));
-const src = readFileSync(here + '../sport-brain-widget.js', 'utf8');
+const src = readFileSync(here + '../matchday-widget.js', 'utf8');
 const real = process.argv[2] ? JSON.parse(readFileSync(process.argv[2], 'utf8'))
-  : await (await fetch('https://joebentham.github.io/sport-brain/data/today.json')).json();
+  : await (await fetch('https://joebentham.github.io/matchday/data/today.json')).json();
 
 // ---- Scriptable stubs
 class Node_ { constructor(kind) { this.kind = kind; this.children = []; } }
@@ -156,8 +156,8 @@ console.log('\n3. Watch labels');
   ok(W.watchLabel(e([{ name: 'Fubo', owned: false, url: 'x' }])) === 'Not on your services', 'unowned only → Not on your services');
   ok(W.watchLabel(e([{ name: 'Fubo', owned: false }, { name: 'Peacock', owned: true }])) === 'Peacock', 'first owned option wins');
   ok(W.watchLabel(e([{ name: 'Willow', owned: null }])) === 'Willow?', 'unconfirmed (owned null) gets a question mark');
-  ok(W.tapUrl(e([{ name: 'Fubo', owned: false, url: 'https://fubo' }])) === 'https://joebentham.github.io/sport-brain/', 'no owned service → board URL');
-  ok(W.tapUrl(e([])) === 'https://joebentham.github.io/sport-brain/', 'no options → board URL');
+  ok(W.tapUrl(e([{ name: 'Fubo', owned: false, url: 'https://fubo' }])) === 'https://joebentham.github.io/matchday/', 'no owned service → board URL');
+  ok(W.tapUrl(e([])) === 'https://joebentham.github.io/matchday/', 'no options → board URL');
 }
 
 // ---------- 4. Offline: falls back to the cache and marks it stale

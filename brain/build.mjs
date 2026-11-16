@@ -1,4 +1,4 @@
-// Sport Brain: builds data/today.json from free ESPN endpoints.
+// Matchday: builds data/today.json from free ESPN endpoints.
 // Run: node brain/build.mjs
 import { readFile, writeFile, mkdir } from 'node:fs/promises';
 import { dirname, join } from 'node:path';
@@ -241,7 +241,7 @@ const LEN = { cricket: 8, football: 3.5, baseball: 3.5, darts: 4, soccer: 2, rug
 const icsEsc = (s) => String(s ?? '').replace(/\\/g, '\\\\').replace(/\n/g, '\\n').replace(/([,;])/g, '\\$1');
 const stamp = (d) => d.toISOString().replace(/[-:]/g, '').replace(/\.\d{3}/, '');
 const fold = (line) => line.match(/.{1,73}/gu).join('\r\n ');
-const cal = ['BEGIN:VCALENDAR', 'VERSION:2.0', 'PRODID:-//Sport Brain//EN', 'CALSCALE:GREGORIAN', 'X-WR-CALNAME:Sport Brain', 'REFRESH-INTERVAL;VALUE=DURATION:PT1H', 'X-PUBLISHED-TTL:PT1H'];
+const cal = ['BEGIN:VCALENDAR', 'VERSION:2.0', 'PRODID:-//Matchday//EN', 'CALSCALE:GREGORIAN', 'X-WR-CALNAME:Matchday', 'REFRESH-INTERVAL;VALUE=DURATION:PT1H', 'X-PUBLISHED-TTL:PT1H'];
 let calCount = 0;
 for (const e of shown) {
   if (!(e.tier === 1 || e.pick || e.tier === 'marquee' || e.tier === 'wildcard') || e.state === 'post') continue;
@@ -250,7 +250,7 @@ for (const e of shown) {
   const where = owned.length ? owned.map(o => o.name + (o.owned === null ? '?' : '')).join(' / ')
     : e.watch.options.length ? `Not on your services (${e.watch.options.map(o => o.name).join(', ')})` : 'Where to watch unknown';
   const desc = [e.why, `Watch: ${where}`, e.watch.note, owned[0]?.url].filter(Boolean).join('\n');
-  cal.push('BEGIN:VEVENT', `UID:${e.id}@sport-brain`, `DTSTAMP:${stamp(now)}`);
+  cal.push('BEGIN:VEVENT', `UID:${e.id}@matchday`, `DTSTAMP:${stamp(now)}`);
   if (e.timeTbc) cal.push(`DTSTART;VALUE=DATE:${e.start.slice(0, 10).replace(/-/g, '')}`);
   else cal.push(`DTSTART:${stamp(start)}`, `DTEND:${stamp(end)}`);
   cal.push(fold(`SUMMARY:${icsEsc((e.tier === 1 ? '★ ' : '') + e.title + (e.detail ? ` (${e.detail})` : ''))}`),
@@ -261,7 +261,7 @@ for (const e of shown) {
   calCount++;
 }
 cal.push('END:VCALENDAR');
-await writeFile(join(ROOT, 'data', 'sport-brain.ics'), cal.join('\r\n') + '\r\n');
+await writeFile(join(ROOT, 'data', 'matchday.ics'), cal.join('\r\n') + '\r\n');
 
 for (const n of nextByTeam) console.log(`  next: ${n.text}${n.start ? ' ' + n.start.slice(0, 16) : ''}`);
 console.log(`${stories.length} stories, ${shown.length} shown, ${all.length - shown.length} candidates, ${calCount} in calendar, ${problems.length} fetch problems`);

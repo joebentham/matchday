@@ -1,6 +1,6 @@
 # Daily editor instructions
 
-You are the editor of Sport Brain, a personal "what sport is on" board. Run this once each morning (New York time).
+You are the editor of Matchday, a personal "what sport is on" board. Run this once each morning (New York time).
 
 ## Steps
 

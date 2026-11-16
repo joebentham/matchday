@@ -5,10 +5,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<meta name="apple-mobile-web-app-title" content="Sport Brain">
+<meta name="apple-mobile-web-app-title" content="Matchday">
 <meta name="theme-color" content="#f2f3f7" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#0c0d12" media="(prefers-color-scheme: dark)">
-<title>Sport Brain</title>
+<title>Matchday</title>
 <style>
   :root {
     --bg: #f2f3f7;
@@ -397,7 +397,7 @@ function render() {
   document.getElementById('app').innerHTML = page === 'calendar' ? pageCalendar(now) : page === 'stories' ? pageStories(now) : pageToday(now);
   document.getElementById('date').textContent = df.format(now);
   document.getElementById('ptitle').textContent = PAGES[page];
-  document.title = page === 'today' ? 'Sport Brain' : `${PAGES[page]} · Sport Brain`;
+  document.title = page === 'today' ? 'Matchday' : `${PAGES[page]} · Matchday`;
   for (const a of document.querySelectorAll('.tabs a')) if (a.dataset.page === page) a.setAttribute('aria-current', 'page'); else a.removeAttribute('aria-current');
   const polled = lastPoll && now - lastPoll < 90e3;
   document.getElementById('stamp').innerHTML = polled ? '<span class="dot"></span>Live scores' : 'Updated ' + esc(tf.format(new Date(data.generatedAt)));

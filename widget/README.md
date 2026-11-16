@@ -1,4 +1,4 @@
-# Sport Brain widget for iPhone
+# Matchday widget for iPhone
 
 A Home Screen and Lock Screen widget that shows the game that matters most right now: the live score, or what's next, when it starts (in your phone's time), and which of your services has it. Tap it to open that service.
 
@@ -26,19 +26,19 @@ Open the App Store, search for **Scriptable** (by Simon B. Støvring), and insta
 ### 2. Add the script
 
 1. On your iPhone, open this link in Safari:
-   `https://raw.githubusercontent.com/joebentham/sport-brain/main/widget/sport-brain-widget.js`
+   `https://raw.githubusercontent.com/joebentham/matchday/main/widget/matchday-widget.js`
    You'll see a page of code.
 2. Tap and hold on the text, choose **Select All**, then **Copy**.
 3. Open **Scriptable** and tap the **+** in the top-right corner.
 4. Tap in the empty page and choose **Paste**.
-5. Tap the title at the top (it says "Untitled Script") and rename it to **Sport Brain**.
+5. Tap the title at the top (it says "Untitled Script") and rename it to **Matchday**.
 6. Tap **Done** in the top-left corner.
 
-*Another way:* this project lives in your iCloud Drive. In the **Files** app, go to `iCloud Drive › Claude › Sport Brain › widget`, press and hold `sport-brain-widget.js`, choose **Copy**, then go to `iCloud Drive › Scriptable` and **Paste**. Rename it to `Sport Brain.js` if you like. It then shows up in Scriptable on its own.
+*Another way:* this project lives in your iCloud Drive. In the **Files** app, go to `iCloud Drive › Claude › Matchday › widget`, press and hold `matchday-widget.js`, choose **Copy**, then go to `iCloud Drive › Scriptable` and **Paste**. Rename it to `Matchday.js` if you like. It then shows up in Scriptable on its own.
 
 ### 3. Try it once
 
-In Scriptable, tap the **Sport Brain** script. After a second or two you should see a preview of the medium widget. If you do, it works. Tap **Close**.
+In Scriptable, tap the **Matchday** script. After a second or two you should see a preview of the medium widget. If you do, it works. Tap **Close**.
 
 ### 4. Add it to your Home Screen
 
@@ -47,34 +47,34 @@ In Scriptable, tap the **Sport Brain** script. After a second or two you should 
 3. Search for **Scriptable** and tap it.
 4. Swipe to pick the **small** or **medium** size, then tap **Add Widget**.
 5. While the icons are still jiggling, tap the new (empty) widget. If they've stopped, press and hold the widget and choose **Edit Widget**.
-6. Next to **Script**, choose **Sport Brain**.
+6. Next to **Script**, choose **Matchday**.
 7. Leave the other settings as they are. Tap outside the box to finish.
 
-You can add both a small and a medium one; each just needs **Script** set to Sport Brain.
+You can add both a small and a medium one; each just needs **Script** set to Matchday.
 
 ### 5. Add it to your Lock Screen
 
 1. Lock your phone, then press and hold the Lock Screen until **Customize** appears. Tap it, then choose **Lock Screen**.
 2. Tap the box of widgets under the clock (or the **Add Widgets** button).
 3. Find **Scriptable** and tap the **wide rectangle** size.
-4. Tap the new widget you just placed and set **Script** to **Sport Brain**.
-5. Optional: tap the date line above the clock, choose **Scriptable**, and set it to Sport Brain too for a one-line version.
+4. Tap the new widget you just placed and set **Script** to **Matchday**.
+5. Optional: tap the date line above the clock, choose **Scriptable**, and set it to Matchday too for a one-line version.
 6. Tap **Done** in the top-right corner.
 
 ## Updating it later
 
-When the script changes, repeat step 2: copy the new code, open the Sport Brain script in Scriptable, select everything, and paste over it. Your widgets pick up the change on their next refresh.
+When the script changes, repeat step 2: copy the new code, open the Matchday script in Scriptable, select everything, and paste over it. Your widgets pick up the change on their next refresh.
 
 ## If something looks wrong
 
-- **The widget says "Select script in widget configurator":** step 4.6 or 5.4 was missed. Press and hold the widget, choose **Edit Widget**, and set **Script** to Sport Brain.
+- **The widget says "Select script in widget configurator":** step 4.6 or 5.4 was missed. Press and hold the widget, choose **Edit Widget**, and set **Script** to Matchday.
 - **Tapping opens Scriptable instead of the streaming app:** press and hold the widget, choose **Edit Widget**, and check **When Interacting** is set to **Open URL** if that option is shown. Otherwise leave it on the default.
-- **"⚠︎ Stale" won't go away:** the phone may be offline, or the board's hourly update has stopped. Open the board at https://joebentham.github.io/sport-brain/ to check.
+- **"⚠︎ Stale" won't go away:** the phone may be offline, or the board's hourly update has stopped. Open the board at https://joebentham.github.io/matchday/ to check.
 - **The score seems old:** see the note about live scores above. Tapping the widget gets you the latest.
 
 ## For whoever maintains this
 
-- The script reads `https://joebentham.github.io/sport-brain/data/today.json`. For games that are live or start within 10 minutes it also asks ESPN's public scoreboard (`site.api.espn.com/apis/site/v2/sports/<feed>/scoreboard`) and matches the game by the number in its `id`.
+- The script reads `https://joebentham.github.io/matchday/data/today.json`. For games that are live or start within 10 minutes it also asks ESPN's public scoreboard (`site.api.espn.com/apis/site/v2/sports/<feed>/scoreboard`) and matches the game by the number in its `id`.
 - Which game is shown follows the board's own rule: a live game of yours or a pick first, then the next game of yours or a pick, then anything else that is next, then any live game. Games with no confirmed time are skipped.
-- Data is cached in Scriptable's local Documents folder (`sport-brain-widget-cache.json`). The widget is marked stale when the fetch fails, or when the data is more than three hours old.
+- Data is cached in Scriptable's local Documents folder (`matchday-widget-cache.json`). The widget is marked stale when the fetch fails, or when the data is more than three hours old.
 - `test/run.mjs` exercises the logic under Node with a stub of Scriptable's objects: `TZ=America/New_York node widget/test/run.mjs`. It does not draw anything; how the widget actually looks can only be checked on a phone.

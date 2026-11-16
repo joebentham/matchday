@@ -6,7 +6,7 @@
 #   appletv/setup.sh --name "Living Room"  pick one when there are several
 set -euo pipefail
 HERE="$(cd "$(dirname "$0")" && pwd)"
-SUPPORT="$HOME/Library/Application Support/SportBrain"
+SUPPORT="$HOME/Library/Application Support/Matchday"
 VENV="$SUPPORT/venv"
 mkdir -p "$SUPPORT"
 
@@ -28,6 +28,6 @@ fi
 echo
 echo "Make sure the TV is on and showing the Apple TV, then follow the prompts."
 echo
-"$VENV/bin/python" "$HERE/sportbrain_atv.py" pair "$@"
+"$VENV/bin/python" "$HERE/matchday_atv.py" pair "$@"
 echo
-echo "Done. The Sport Brain island will now offer \"Watch on Apple TV\"."
+echo "Done. The Matchday island will now offer \"Watch on Apple TV\"."
