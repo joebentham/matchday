@@ -1,18 +1,5 @@
 [
   {
-    "id": "manual-darts-gs-mon",
-    "sport": "darts",
-    "league": "PDC Grand Slam of Darts",
-    "title": "Grand Slam of Darts: Monday session",
-    "start": "2026-11-16T19:00:00.000Z",
-    "tier": "wildcard",
-    "why": "Final group games for Groups A to H, which decide the first eight places in round two.",
-    "watchKeys": [
-      "espn",
-      "hulu"
-    ]
-  },
-  {
     "id": "manual-darts-gs-tue",
     "sport": "darts",
     "league": "PDC Grand Slam of Darts",

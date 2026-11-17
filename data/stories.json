@@ -1,7 +1,50 @@
 [
-  { "text": "The Mets are due to meet free agent ace Tarik Skubal in California this week, alongside the Dodgers, Blue Jays and Padres.", "sport": "MLB", "url": "https://abc7ny.com/post/source-mets-meet-prized-ace-tarik-skubal-week/20031746/", "source": "ABC7 New York", "kind": "story", "spoiler": false },
-  { "text": "Stephen Bunting is out of the Grand Slam of Darts after losing 5-2 to Cameron Menzies, who won Group D.", "sport": "Darts", "url": "https://dartsnews.com/pdc/grand-slam-of-darts-2026-results-schedule-standings-preview-draw-field-history-format-and-predictions", "source": "Darts News", "kind": "story", "spoiler": false },
-  { "text": "Kyren Wilson won the Champion of Champions 10-8 over Chris Wakelin, extending a title run that includes the Northern Ireland Open and International Championship.", "sport": "Snooker", "url": "https://en.wikipedia.org/wiki/2026_Champion_of_Champions", "source": "Wikipedia", "kind": "story", "spoiler": false },
-  { "text": "Yokozuna Hoshoryu fell to 4-5 on day nine in Fukuoka, beaten by Atamifuji, while Onosato, Kirishima, Atamifuji and Wakamotoharu lead on 8-1.", "sport": "Sumo", "url": "https://tachiai.org/2026/11/16/kyushu-2026-day-nine/", "source": "Tachiai", "kind": "story", "spoiler": false },
-  { "text": "The Grand Slam of Curling National opens Tuesday in Sydney, Nova Scotia, with 16 men's and 16 women's teams and every event on ESPN+.", "sport": "Curling", "url": "https://www.thegrandslamofcurling.com/news/2026-gsoc-national-what-you-need-to-know", "source": "Grand Slam of Curling", "kind": "event", "spoiler": false }
+  {
+    "text": "England beat Australia by 135 runs in Adelaide to level the ODI series 1-1, with Tom Banton's century and four wickets for Gus Atkinson; the decider is in Hobart.",
+    "sport": "Cricket",
+    "url": "https://www.cricket.com.au/news/4609370/australia-v-england-second-odi-banton-century-cox-green-renshaw-atkinson-video-highlights-scores",
+    "source": "cricket.com.au",
+    "kind": "story",
+    "spoiler": false
+  },
+  {
+    "text": "The Mets are due to meet free agent ace Tarik Skubal in California this week, alongside the Dodgers, Blue Jays and Padres.",
+    "sport": "MLB",
+    "url": "https://abc7ny.com/post/source-mets-meet-prized-ace-tarik-skubal-week/20031746/",
+    "source": "ABC7 New York",
+    "kind": "story",
+    "spoiler": false
+  },
+  {
+    "text": "The Grand Slam of Curling National opens Tuesday in Sydney, Nova Scotia, with 16 men's and 16 women's teams and every event on ESPN+.",
+    "sport": "Curling",
+    "url": "https://www.thegrandslamofcurling.com/news/2026-gsoc-national-what-you-need-to-know",
+    "source": "Grand Slam of Curling",
+    "kind": "event",
+    "spoiler": false
+  },
+  {
+    "text": "Stephen Bunting is out of the Grand Slam of Darts after losing 5-2 to Cameron Menzies, who won Group D.",
+    "sport": "Darts",
+    "url": "https://dartsnews.com/pdc/grand-slam-of-darts-2026-results-schedule-standings-preview-draw-field-history-format-and-predictions",
+    "source": "Darts News",
+    "kind": "story",
+    "spoiler": false
+  },
+  {
+    "text": "Kyren Wilson won the Champion of Champions 10-8 over Chris Wakelin, extending a title run that includes the Northern Ireland Open and International Championship.",
+    "sport": "Snooker",
+    "url": "https://en.wikipedia.org/wiki/2026_Champion_of_Champions",
+    "source": "Wikipedia",
+    "kind": "story",
+    "spoiler": false
+  },
+  {
+    "text": "Yokozuna Hoshoryu fell to 4-5 on day nine in Fukuoka, beaten by Atamifuji, while Onosato, Kirishima, Atamifuji and Wakamotoharu lead on 8-1.",
+    "sport": "Sumo",
+    "url": "https://tachiai.org/2026/11/16/kyushu-2026-day-nine/",
+    "source": "Tachiai",
+    "kind": "story",
+    "spoiler": false
+  }
 ]

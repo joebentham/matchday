@@ -1,14 +1,18 @@
 {
-  "date": "2026-11-16",
-  "headline": "The Grand Slam of Darts group stage ends this afternoon, and England's third ODI in Hobart is Tuesday night.",
+  "date": "2026-11-17",
+  "headline": "England's third ODI in Hobart with the series level at 1-1 is Tuesday night, while the Grand Slam of Darts group stage ends this afternoon.",
   "today": [
-    "2:00 PM: Grand Slam of Darts, final group games for Groups A to H, ESPN+/Hulu Live.",
-    "7:30 PM: Canadiens at Rangers, Hulu Live.",
-    "Tue 10:30 PM: Australia v England, 3rd ODI in Hobart, Willow."
+    "2:00 PM: Grand Slam of Darts, final group games for Groups I to P, ESPN+/Hulu Live.",
+    "Tue 10:30 PM: Australia v England, 3rd ODI in Hobart, Willow.",
+    "Wed 3:00 PM: Chelsea v Paris Saint-Germain, Women's Champions League, Paramount+."
   ],
   "recaps": [
-    { "text": "Kyren Wilson beat Chris Wakelin 10-8 in the Champion of Champions final in Leicester on Sunday, his third title in a row." },
-    { "text": "Stephen Bunting is out of the Grand Slam of Darts after a 5-2 loss to Cameron Menzies, who won Group D." }
+    {
+      "text": "The Rangers beat the Canadiens 3-1 at Madison Square Garden on Monday night."
+    },
+    {
+      "text": "England beat Australia by 135 runs in Adelaide on Sunday to level the ODI series 1-1, with a Tom Banton century and four wickets for Gus Atkinson."
+    }
   ],
   "lookAhead": "Saturday has England v New Zealand at 9:10 AM and Arsenal at Newcastle at 12:30 PM; the Jets visit the Chargers on Sunday at 4:05 PM."
 }
