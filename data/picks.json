@@ -1,9 +1,35 @@
 {
-  "cricket-1528705": { "why": "Third and final ODI of the series, a day-night game in Hobart. It starts at 10:30 PM New York time on Tuesday." },
-  "cricket-1528706": { "why": "First T20I of the tour, a night game at the MCG. It starts at 3:15 AM New York time on Saturday." },
-  "rugby-604005": { "why": "England host New Zealand at Allianz Stadium in the Nations Championship, a 9:10 AM kick-off in New York." },
-  "soccer-401879232": { "why": "Arsenal travel to Newcastle at St James' Park, 12:30 PM New York time on Saturday." },
-  "football-401873074": { "why": "The Jets visit the Chargers at SoFi Stadium on Sunday afternoon, 4:05 PM New York time." },
-  "soccer-401916980": { "tier": "wildcard", "why": "Women's Champions League match at Chelsea, a 3:00 PM New York kick-off on Wednesday." },
-  "soccer-401916976": { "tier": "wildcard", "why": "Arsenal Women host Lyon in the Women's Champions League, a 3:00 PM New York kick-off on Thursday." }
+  "cricket-1528705": {
+    "why": "Third and final ODI of the series in Hobart, a day-night game that started at 10:30 PM New York time on Tuesday."
+  },
+  "cricket-1528706": {
+    "why": "First T20I of the five-match tour, a night game at the MCG, starting at 3:15 AM New York time on Saturday."
+  },
+  "cricket-1528707": {
+    "why": "Second T20I of the tour, starting at 3:15 AM New York time on Tuesday 24 November."
+  },
+  "rugby-604005": {
+    "why": "England host New Zealand at Allianz Stadium, Twickenham, in the Nations Championship, a 9:10 AM kick-off in New York."
+  },
+  "soccer-401879232": {
+    "why": "Arsenal travel to Newcastle United in the Premier League, 12:30 PM New York time on Saturday."
+  },
+  "football-401873074": {
+    "why": "The Jets visit the Chargers at SoFi Stadium on Sunday afternoon, 4:05 PM New York time."
+  },
+  "soccer-401915295": {
+    "why": "Arsenal host Borussia Dortmund in the Champions League, 3:00 PM New York time on Tuesday 24 November."
+  },
+  "soccer-401878755": {
+    "tier": "marquee",
+    "why": "Manchester United play at Liverpool in the Premier League, 11:30 AM New York time on Sunday."
+  },
+  "soccer-401916980": {
+    "tier": "wildcard",
+    "why": "Chelsea host Paris Saint-Germain in the Women's Champions League, a 3:00 PM New York kick-off on Wednesday."
+  },
+  "soccer-401916976": {
+    "tier": "wildcard",
+    "why": "Arsenal Women host Lyon in the Women's Champions League, a 3:00 PM New York kick-off on Thursday."
+  }
 }

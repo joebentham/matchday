@@ -1,18 +1,18 @@
 {
-  "date": "2026-11-17",
-  "headline": "England's third ODI in Hobart with the series level at 1-1 is Tuesday night, while the Grand Slam of Darts group stage ends this afternoon.",
+  "date": "2026-11-18",
+  "headline": "Grand Slam of Darts round two starts at 2:00 PM New York time, with Littler v Wattimena on the card, and Chelsea host PSG in the Women's Champions League at 3:00 PM.",
   "today": [
-    "2:00 PM: Grand Slam of Darts, final group games for Groups I to P, ESPN+/Hulu Live.",
-    "Tue 10:30 PM: Australia v England, 3rd ODI in Hobart, Willow.",
-    "Wed 3:00 PM: Chelsea v Paris Saint-Germain, Women's Champions League, Paramount+."
+    "2:00 PM: Grand Slam of Darts, round two (Cross v Springer, Price v Searle, Littler v Wattimena, Doets v Menzies), ESPN+/Hulu Live.",
+    "3:00 PM: Chelsea v Paris Saint-Germain, Women's Champions League, Paramount+.",
+    "TBC: Grand Slam of Curling, The National in Sydney, Nova Scotia, ESPN+."
   ],
   "recaps": [
     {
-      "text": "The Rangers beat the Canadiens 3-1 at Madison Square Garden on Monday night."
+      "text": "England beat Australia by 97 runs in the third ODI in Hobart to win the series 2-1, with Ben Duckett making 133 from 115 balls."
     },
     {
-      "text": "England beat Australia by 135 runs in Adelaide on Sunday to level the ODI series 1-1, with a Tom Banton century and four wickets for Gus Atkinson."
+      "text": "Luke Humphries, Michael van Gerwen and Nathan Aspinall won their groups on the last night of the Grand Slam of Darts group stage."
     }
   ],
-  "lookAhead": "Saturday has England v New Zealand at 9:10 AM and Arsenal at Newcastle at 12:30 PM; the Jets visit the Chargers on Sunday at 4:05 PM."
+  "lookAhead": "Saturday has the first T20I from the MCG at 3:15 AM, England v New Zealand at 9:10 AM and Arsenal at Newcastle at 12:30 PM; Sunday has the Grand Slam final at 2:30 PM and the Jets at the Chargers at 4:05 PM."
 }
