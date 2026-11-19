@@ -1,25 +1,12 @@
 [
   {
-    "id": "manual-darts-gs-tue",
-    "sport": "darts",
-    "league": "PDC Grand Slam of Darts",
-    "title": "Grand Slam of Darts: Tuesday session",
-    "start": "2026-11-17T19:00:00.000Z",
-    "tier": "wildcard",
-    "why": "Final group games for Groups I to P; Luke Humphries, Michael van Gerwen and Nathan Aspinall won their groups.",
-    "watchKeys": [
-      "espn",
-      "hulu"
-    ]
-  },
-  {
     "id": "manual-darts-gs-wed",
     "sport": "darts",
     "league": "PDC Grand Slam of Darts",
     "title": "Grand Slam of Darts: Wednesday session",
     "start": "2026-11-18T19:00:00.000Z",
     "tier": "wildcard",
-    "why": "Round two begins: Cross v Springer, Price v Searle, Littler v Wattimena and Doets v Menzies.",
+    "why": "Round two began: Price beat Searle 10-7, Springer beat Cross 10-8 and Wattimena beat Littler 10-8.",
     "watchKeys": [
       "espn",
       "hulu"
@@ -45,7 +32,7 @@
     "title": "Grand Slam of Darts: Friday quarter-finals",
     "start": "2026-11-20T19:00:00.000Z",
     "tier": "wildcard",
-    "why": "The first two quarter-finals.",
+    "why": "The first two quarter-finals: Wattimena v Doets and Price v Springer.",
     "watchKeys": [
       "espn",
       "hulu"

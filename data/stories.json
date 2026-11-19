@@ -1,5 +1,29 @@
 [
   {
+    "text": "Luke Littler lost 10-8 to Jermaine Wattimena in round two of the Grand Slam of Darts, and Wattimena meets Kevin Doets in Friday's quarter-finals.",
+    "sport": "Darts",
+    "url": "https://dartsnews.com/pdc/grand-slam-of-darts-2026-results-schedule-standings-preview-draw-field-history-format-and-predictions",
+    "source": "Darts News",
+    "kind": "story",
+    "spoiler": false
+  },
+  {
+    "text": "Wakamotoharu leads the Kyushu basho at 10-1 after day 11, with Hoshoryu improving to 6-5 by beating Kirishima.",
+    "sport": "Sumo",
+    "url": "https://tachiai.org/2026/11/18/kyushu-2026-day-eleven/",
+    "source": "Tachiai",
+    "kind": "story",
+    "spoiler": false
+  },
+  {
+    "text": "The Mets met free agent ace Tarik Skubal in California on Monday, reportedly the first of six teams to pitch him, and it went very well.",
+    "sport": "MLB",
+    "url": "https://dodgersnation.com/tarik-skubals-meeting-with-mets-goes-very-well-as-dodgers-await-their-turn/2026/11/17/",
+    "source": "Dodgers Nation",
+    "kind": "story",
+    "spoiler": false
+  },
+  {
     "text": "England beat Australia by 97 runs in Hobart to win the ODI series 2-1, with Ben Duckett's 133 and four wickets each for Sonny Baker and Jack Edwards.",
     "sport": "Cricket",
     "url": "https://www.cricket.com.au/news/4610733/australia-england-cam-green-injury-ben-duckett-century-odi-one-day-international-series-decider-match-report",
@@ -8,43 +32,11 @@
     "spoiler": false
   },
   {
-    "text": "The Mets are due to meet free agent ace Tarik Skubal in California this week, alongside the Dodgers, Blue Jays and Padres.",
-    "sport": "MLB",
-    "url": "https://abc7ny.com/post/source-mets-meet-prized-ace-tarik-skubal-week/20031746/",
-    "source": "ABC7 New York",
-    "kind": "story",
-    "spoiler": false
-  },
-  {
-    "text": "Round two of the Grand Slam of Darts starts Wednesday, with Luke Littler, who won Group A, against Jermaine Wattimena.",
-    "sport": "Darts",
-    "url": "https://dartsnews.com/pdc/grand-slam-of-darts-2026-results-schedule-standings-preview-draw-field-history-format-and-predictions",
-    "source": "Darts News",
-    "kind": "event",
-    "spoiler": false
-  },
-  {
     "text": "The Grand Slam of Curling National runs in Sydney, Nova Scotia until Sunday, with every draw streamed on ESPN+ in the US.",
     "sport": "Curling",
     "url": "https://www.thegrandslamofcurling.com/news/2026-gsoc-national-what-you-need-to-know",
     "source": "Grand Slam of Curling",
     "kind": "event",
-    "spoiler": false
-  },
-  {
-    "text": "Atamifuji and Wakamotoharu lead the Kyushu basho at 9-1 after day ten, with Onosato, Kirishima, Kinbozan and Dewanoryu a loss behind.",
-    "sport": "Sumo",
-    "url": "https://tachiai.org/2026/11/17/kyushu-2026-day-ten/",
-    "source": "Tachiai",
-    "kind": "story",
-    "spoiler": false
-  },
-  {
-    "text": "Yokozuna Hoshoryu improved to 5-5 on day ten of the Kyushu basho by beating Takerufuji with a henka sidestep.",
-    "sport": "Sumo",
-    "url": "https://tachiai.org/2026/11/17/kyushu-2026-day-ten/",
-    "source": "Tachiai",
-    "kind": "story",
     "spoiler": false
   }
 ]
