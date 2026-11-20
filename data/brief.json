@@ -1,18 +1,19 @@
 {
-  "date": "2026-11-19",
-  "headline": "Round two of the Grand Slam of Darts finishes at 2:00 PM New York time, and Arsenal Women host Lyon in the Women's Champions League at 3:00 PM.",
+  "date": "2026-11-20",
+  "headline": "The Grand Slam of Darts quarter-finals start at 2:00 PM New York time today, before a Saturday of the first T20I, England v New Zealand and Arsenal at Newcastle.",
   "today": [
-    "2:00 PM: Grand Slam of Darts, round two (Clemens v Aspinall, van Veen v Schindler, Humphries v Sykes, Wade v van Gerwen), ESPN+/Hulu Live.",
-    "3:00 PM: Arsenal Women v Lyon, Women's Champions League, ESPN+/Paramount+.",
-    "8:00 PM: Knicks at Timberwolves, NBA, NBA TV."
+    "2:00 PM: Grand Slam of Darts quarter-finals (Wattimena v Doets, Price v Springer), ESPN+/Hulu Live."
   ],
   "recaps": [
     {
-      "text": "Luke Littler was knocked out of the Grand Slam of Darts in round two, losing 10-8 to Jermaine Wattimena, who now meets Kevin Doets in the quarter-finals."
+      "text": "Tom Sykes beat Luke Humphries 10-9 in a last-leg decider at the Grand Slam of Darts, a day after Luke Littler went out, and meets Michael van Gerwen in Saturday's quarter-finals."
     },
     {
-      "text": "Wakamotoharu leads the Kyushu sumo basho alone at 10-1 after day 11, one win clear of Onosato, Atamifuji and Kinbozan."
+      "text": "England beat Australia by 97 runs in Hobart on Wednesday to win the ODI series 2-1, Ben Duckett making 133."
+    },
+    {
+      "text": "Wakamotoharu leads the Kyushu sumo basho alone at 11-1 after day 12, a win clear of Onosato, Atamifuji and Kinbozan."
     }
   ],
-  "lookAhead": "Saturday has the first T20I from the MCG at 3:15 AM, England v New Zealand at 9:10 AM and Arsenal at Newcastle at 12:30 PM; Sunday has the Grand Slam final at 2:30 PM and the Jets at the Chargers at 4:05 PM."
+  "lookAhead": "Saturday has the first T20I from the MCG at 3:15 AM, England v New Zealand at 9:10 AM and Arsenal at Newcastle at 12:30 PM; Sunday has Manchester United at Liverpool at 11:30 AM, the Grand Slam final at 2:30 PM and the Jets at the Chargers at 4:05 PM."
 }

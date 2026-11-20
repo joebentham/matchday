@@ -1,25 +1,12 @@
 [
   {
-    "id": "manual-darts-gs-wed",
-    "sport": "darts",
-    "league": "PDC Grand Slam of Darts",
-    "title": "Grand Slam of Darts: Wednesday session",
-    "start": "2026-11-18T19:00:00.000Z",
-    "tier": "wildcard",
-    "why": "Round two began: Price beat Searle 10-7, Springer beat Cross 10-8 and Wattimena beat Littler 10-8.",
-    "watchKeys": [
-      "espn",
-      "hulu"
-    ]
-  },
-  {
     "id": "manual-darts-gs-thu",
     "sport": "darts",
     "league": "PDC Grand Slam of Darts",
     "title": "Grand Slam of Darts: Thursday session",
     "start": "2026-11-19T19:00:00.000Z",
     "tier": "wildcard",
-    "why": "Round two concludes: Clemens v Aspinall, van Veen v Schindler, Humphries v Sykes and Wade v van Gerwen.",
+    "why": "Round two concluded: Sykes beat Humphries 10-9 and van Gerwen, van Veen and Aspinall also went through.",
     "watchKeys": [
       "espn",
       "hulu"
@@ -45,7 +32,7 @@
     "title": "Grand Slam of Darts: Saturday quarter-finals",
     "start": "2026-11-21T19:00:00.000Z",
     "tier": "wildcard",
-    "why": "The last two quarter-finals.",
+    "why": "The last two quarter-finals: Sykes v van Gerwen and van Veen v Aspinall, at 2:00 PM New York time.",
     "watchKeys": [
       "espn",
       "hulu"
@@ -75,19 +62,6 @@
     "watchKeys": [
       "espn",
       "hulu"
-    ]
-  },
-  {
-    "id": "manual-curling-national-2026",
-    "sport": "curling",
-    "league": "Grand Slam of Curling",
-    "title": "Grand Slam of Curling: The National begins",
-    "start": "2026-11-17T14:00:00.000Z",
-    "timeTbc": true,
-    "tier": "wildcard",
-    "why": "Sixteen men's and sixteen women's teams at Centre 200 in Sydney, Nova Scotia, from 17 to 22 November. Draw times not confirmed.",
-    "watchKeys": [
-      "espn"
     ]
   }
 ]

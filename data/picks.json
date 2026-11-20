@@ -12,7 +12,7 @@
     "why": "Arsenal travel to Newcastle United in the Premier League, 12:30 PM New York time on Saturday."
   },
   "football-401873074": {
-    "why": "The Jets visit the Chargers at SoFi Stadium on Sunday afternoon, 4:05 PM New York time."
+    "why": "The Jets (2-8, five straight losses) visit the Chargers (1-8) at SoFi Stadium, 4:05 PM New York time on Sunday."
   },
   "soccer-401915295": {
     "why": "Arsenal host Borussia Dortmund in the Champions League, 3:00 PM New York time on Tuesday 24 November."
@@ -21,12 +21,8 @@
     "tier": "marquee",
     "why": "Manchester United play at Liverpool in the Premier League, 11:30 AM New York time on Sunday."
   },
-  "soccer-401916980": {
+  "rugby-604007": {
     "tier": "wildcard",
-    "why": "Chelsea host Paris Saint-Germain in the Women's Champions League, a 3:00 PM New York kick-off on Wednesday."
-  },
-  "soccer-401916976": {
-    "tier": "wildcard",
-    "why": "Arsenal Women host Lyon in the Women's Champions League, a 3:00 PM New York kick-off on Thursday."
+    "why": "Ireland play South Africa in the Nations Championship, 11:40 AM New York time on Saturday, free on RugbyPass TV."
   }
 }

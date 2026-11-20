@@ -1,25 +1,17 @@
 [
   {
-    "text": "Luke Littler lost 10-8 to Jermaine Wattimena in round two of the Grand Slam of Darts, and Wattimena meets Kevin Doets in Friday's quarter-finals.",
+    "text": "Tom Sykes beat Luke Humphries 10-9 in round two of the Grand Slam of Darts and now plays Michael van Gerwen in Saturday's quarter-finals.",
     "sport": "Darts",
-    "url": "https://dartsnews.com/pdc/grand-slam-of-darts-2026-results-schedule-standings-preview-draw-field-history-format-and-predictions",
-    "source": "Darts News",
+    "url": "https://www.sportinglife.com/darts/news/darts-results-tom-sykes-stuns-luke-humphries-at-the-grand-slam-of-darts/235548",
+    "source": "Sporting Life",
     "kind": "story",
     "spoiler": false
   },
   {
-    "text": "Wakamotoharu leads the Kyushu basho at 10-1 after day 11, with Hoshoryu improving to 6-5 by beating Kirishima.",
+    "text": "Wakamotoharu leads the Kyushu basho at 11-1 after day 12, with Hoshoryu moving to 7-5 by beating Fujinokawa.",
     "sport": "Sumo",
-    "url": "https://tachiai.org/2026/11/18/kyushu-2026-day-eleven/",
+    "url": "https://tachiai.org/2026/11/19/kyushu-2026-day-twelve/",
     "source": "Tachiai",
-    "kind": "story",
-    "spoiler": false
-  },
-  {
-    "text": "The Mets met free agent ace Tarik Skubal in California on Monday, reportedly the first of six teams to pitch him, and it went very well.",
-    "sport": "MLB",
-    "url": "https://dodgersnation.com/tarik-skubals-meeting-with-mets-goes-very-well-as-dodgers-await-their-turn/2026/11/17/",
-    "source": "Dodgers Nation",
     "kind": "story",
     "spoiler": false
   },
@@ -37,6 +29,14 @@
     "url": "https://www.thegrandslamofcurling.com/news/2026-gsoc-national-what-you-need-to-know",
     "source": "Grand Slam of Curling",
     "kind": "event",
+    "spoiler": false
+  },
+  {
+    "text": "The Jets, 2-8 and on a five-game losing streak, travel to face the 1-8 Chargers on Sunday, with Geno Smith's availability the main question.",
+    "sport": "NFL",
+    "url": "https://amny.com/sports/jets-chargers-pre-11-18-26/",
+    "source": "amNY",
+    "kind": "story",
     "spoiler": false
   }
 ]
