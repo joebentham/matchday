@@ -1,19 +1,20 @@
 {
-  "date": "2026-11-20",
-  "headline": "The Grand Slam of Darts quarter-finals start at 2:00 PM New York time today, before a Saturday of the first T20I, England v New Zealand and Arsenal at Newcastle.",
+  "date": "2026-11-21",
+  "headline": "England meet New Zealand at 9:10 AM with a place in the Nations Championship final in play, Arsenal are at Newcastle at 12:30 PM, and the NWSL title match is tonight at 8:00 PM.",
   "today": [
-    "2:00 PM: Grand Slam of Darts quarter-finals (Wattimena v Doets, Price v Springer), ESPN+/Hulu Live."
+    "9:10 AM: England v New Zealand, Nations Championship, RugbyPass TV.",
+    "12:30 PM: Arsenal at Newcastle United, Premier League, Hulu Live.",
+    "11:40 AM: Ireland v South Africa, Nations Championship, RugbyPass TV.",
+    "2:00 PM: Grand Slam of Darts quarter-finals (Sykes v van Gerwen, van Veen v Aspinall), ESPN+/Hulu Live.",
+    "8:00 PM: NWSL Championship, Washington Spirit v Kansas City Current, CBS/Paramount+."
   ],
   "recaps": [
     {
-      "text": "Tom Sykes beat Luke Humphries 10-9 in a last-leg decider at the Grand Slam of Darts, a day after Luke Littler went out, and meets Michael van Gerwen in Saturday's quarter-finals."
+      "text": "Australia beat England by three wickets in the first T20I at the MCG, reaching 191/7 in 19.5 overs chasing 188."
     },
     {
-      "text": "England beat Australia by 97 runs in Hobart on Wednesday to win the ODI series 2-1, Ben Duckett making 133."
-    },
-    {
-      "text": "Wakamotoharu leads the Kyushu sumo basho alone at 11-1 after day 12, a win clear of Onosato, Atamifuji and Kinbozan."
+      "text": "Gerwyn Price edged Niko Springer 16-15 at the Grand Slam of Darts and meets Kevin Doets, who beat Jermaine Wattimena 16-7, in Sunday's semi-finals."
     }
   ],
-  "lookAhead": "Saturday has the first T20I from the MCG at 3:15 AM, England v New Zealand at 9:10 AM and Arsenal at Newcastle at 12:30 PM; Sunday has Manchester United at Liverpool at 11:30 AM, the Grand Slam final at 2:30 PM and the Jets at the Chargers at 4:05 PM."
+  "lookAhead": "Sunday has the Grand Slam semi-finals at 8:00 AM, Manchester United at Liverpool at 11:30 AM, the darts final at 2:30 PM and the Jets at the Chargers at 4:05 PM."
 }

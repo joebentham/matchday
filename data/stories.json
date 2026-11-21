@@ -1,38 +1,46 @@
 [
   {
-    "text": "Tom Sykes beat Luke Humphries 10-9 in round two of the Grand Slam of Darts and now plays Michael van Gerwen in Saturday's quarter-finals.",
-    "sport": "Darts",
-    "url": "https://www.sportinglife.com/darts/news/darts-results-tom-sykes-stuns-luke-humphries-at-the-grand-slam-of-darts/235548",
-    "source": "Sporting Life",
+    "text": "England can reach the Nations Championship final by beating New Zealand, with Borthwick picking his first-choice XV and Fin Smith back at fly-half.",
+    "sport": "Rugby union",
+    "url": "https://www.irishtimes.com/sport/2026/11/19/england-name-strongest-available-team-for-all-blacks-clash-at-twickenham/",
+    "source": "Irish Times",
     "kind": "story",
     "spoiler": false
   },
   {
-    "text": "Wakamotoharu leads the Kyushu basho at 11-1 after day 12, with Hoshoryu moving to 7-5 by beating Fujinokawa.",
+    "text": "Gerwyn Price survived two match darts to beat Niko Springer 16-15 at the Grand Slam of Darts and now faces Kevin Doets in the semi-finals.",
+    "sport": "Darts",
+    "url": "https://www.skysports.com/darts/news/13610214/grand-slam-of-darts-2026-schedule-new-format-players-prize-money-past-winners-as-luke-littler-looks-to-retain-title",
+    "source": "Sky Sports",
+    "kind": "story",
+    "spoiler": false
+  },
+  {
+    "text": "Wakamotoharu beat Aonishiki on day 14 to stay in the Kyushu sumo title race, with Onosato and Atamifuji also alive going into Sunday's final day.",
     "sport": "Sumo",
-    "url": "https://tachiai.org/2026/11/19/kyushu-2026-day-twelve/",
+    "url": "https://tachiai.org/2026/11/21/kyushu-2026-day-fourteen/",
     "source": "Tachiai",
     "kind": "story",
     "spoiler": false
   },
   {
-    "text": "England beat Australia by 97 runs in Hobart to win the ODI series 2-1, with Ben Duckett's 133 and four wickets each for Sonny Baker and Jack Edwards.",
-    "sport": "Cricket",
-    "url": "https://www.cricket.com.au/news/4610733/australia-england-cam-green-injury-ben-duckett-century-odi-one-day-international-series-decider-match-report",
-    "source": "cricket.com.au",
-    "kind": "story",
-    "spoiler": false
-  },
-  {
-    "text": "The Grand Slam of Curling National runs in Sydney, Nova Scotia until Sunday, with every draw streamed on ESPN+ in the US.",
+    "text": "The Grand Slam of Curling National in Sydney, Nova Scotia reaches its playoffs on Saturday with the finals on Sunday, and Rachel Homan, who has four titles there, opened with a win.",
     "sport": "Curling",
-    "url": "https://www.thegrandslamofcurling.com/news/2026-gsoc-national-what-you-need-to-know",
-    "source": "Grand Slam of Curling",
+    "url": "https://www.tsn.ca/curling/article/homan-einarson-open-with-wins-at-grand-slam-of-curling-national-stop/",
+    "source": "TSN",
     "kind": "event",
     "spoiler": false
   },
   {
-    "text": "The Jets, 2-8 and on a five-game losing streak, travel to face the 1-8 Chargers on Sunday, with Geno Smith's availability the main question.",
+    "text": "The Washington Spirit and Kansas City Current meet in the NWSL Championship tonight at 8:00 PM New York time at Audi Field, on CBS and Paramount+.",
+    "sport": "Women's soccer",
+    "url": "https://ussoccer.com/stories/2026/11/federation/weekly-recap-uswnt-usmnt-nwsl-playoffs-u17-womens-world-cup",
+    "source": "U.S. Soccer",
+    "kind": "event",
+    "spoiler": false
+  },
+  {
+    "text": "The 2-8 Jets, who have lost five straight and not scored a touchdown in two games, visit the 1-8 Chargers on Sunday with Geno Smith expected to start if healthy.",
     "sport": "NFL",
     "url": "https://amny.com/sports/jets-chargers-pre-11-18-26/",
     "source": "amNY",
