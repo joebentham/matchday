@@ -1,31 +1,34 @@
 {
-  "cricket-1528706": {
-    "why": "First T20I of the five-match tour at the MCG, played overnight from 3:15 AM New York time; Australia won by three wickets."
-  },
-  "cricket-1528707": {
-    "why": "Second T20I of the tour, starting at 3:15 AM New York time on Tuesday 24 November."
-  },
-  "cricket-1528708": {
-    "why": "Third T20I of the tour, starting at 3:15 AM New York time on Friday 27 November."
-  },
   "rugby-604005": {
-    "why": "England can still reach the Nations Championship final if they beat New Zealand, and Borthwick has picked his first-choice side; kick-off is 9:10 AM New York time."
+    "why": "England's record 37-12 win over New Zealand at Twickenham kept them in the Nations Championship finals weekend, where the same two sides meet again on 28 November."
+  },
+  "rugby-604007": {
+    "tier": "wildcard",
+    "why": "Ireland beat South Africa 20-17 in the Nations Championship, free on RugbyPass TV."
   },
   "soccer-401879232": {
-    "why": "Arsenal travel to Newcastle United in the Premier League, 12:30 PM New York time on Saturday."
-  },
-  "football-401873074": {
-    "why": "The Jets (2-8, five straight losses) visit the Chargers (1-8) at SoFi Stadium, 4:05 PM New York time on Sunday."
-  },
-  "soccer-401915295": {
-    "why": "Arsenal host Borussia Dortmund in the Champions League, 3:00 PM New York time on Tuesday 24 November."
+    "why": "Arsenal's Premier League trip to Newcastle United, played Saturday."
   },
   "soccer-401878755": {
     "tier": "marquee",
     "why": "Manchester United play at Liverpool in the Premier League, 11:30 AM New York time on Sunday."
   },
-  "rugby-604007": {
-    "tier": "wildcard",
-    "why": "Ireland play South Africa in the Nations Championship, 11:40 AM New York time on Saturday, free on RugbyPass TV."
+  "football-401873074": {
+    "why": "The Jets (2-8, five straight losses) visit the Chargers (1-8) at SoFi Stadium, 4:05 PM New York time on Sunday."
+  },
+  "cricket-1528707": {
+    "why": "Second T20I of the tour at 3:15 AM New York time on Tuesday 24 November."
+  },
+  "soccer-401915295": {
+    "why": "Arsenal host Borussia Dortmund in the Champions League, 3:00 PM New York time on Tuesday 24 November."
+  },
+  "cricket-1528708": {
+    "why": "Third T20I of the tour at 3:15 AM New York time on Friday 27 November."
+  },
+  "rugby-604014": {
+    "why": "England meet New Zealand again at Twickenham on 28 November, 11:40 AM New York time, in the Nations Championship finals weekend."
+  },
+  "cricket-1528709": {
+    "why": "Fourth T20I of the tour at 3:15 AM New York time on Sunday 29 November."
   }
 }

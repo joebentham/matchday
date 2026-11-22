@@ -1,20 +1,23 @@
 {
-  "date": "2026-11-21",
-  "headline": "England meet New Zealand at 9:10 AM with a place in the Nations Championship final in play, Arsenal are at Newcastle at 12:30 PM, and the NWSL title match is tonight at 8:00 PM.",
+  "date": "2026-11-22",
+  "headline": "Sunday has the Grand Slam of Darts semi-finals at 8:00 AM, Manchester United at Liverpool at 11:30 AM, the darts final at 2:30 PM and the Jets at the Chargers at 4:05 PM.",
   "today": [
-    "9:10 AM: England v New Zealand, Nations Championship, RugbyPass TV.",
-    "12:30 PM: Arsenal at Newcastle United, Premier League, Hulu Live.",
-    "11:40 AM: Ireland v South Africa, Nations Championship, RugbyPass TV.",
-    "2:00 PM: Grand Slam of Darts quarter-finals (Sykes v van Gerwen, van Veen v Aspinall), ESPN+/Hulu Live.",
-    "8:00 PM: NWSL Championship, Washington Spirit v Kansas City Current, CBS/Paramount+."
+    "4:05 PM: New York Jets at Los Angeles Chargers, NFL, Hulu Live (Fox).",
+    "11:30 AM: Manchester United at Liverpool, Premier League, Hulu Live.",
+    "2:30 PM: Grand Slam of Darts final, ESPN+/Hulu Live.",
+    "8:00 AM: Grand Slam of Darts semi-finals (Doets v Price, van Gerwen v van Veen), ESPN+/Hulu Live.",
+    "12:30 PM: Carolina Hurricanes at New York Rangers, NHL, NHL Network/MSG Networks."
   ],
   "recaps": [
     {
-      "text": "Australia beat England by three wickets in the first T20I at the MCG, reaching 191/7 in 19.5 overs chasing 188."
+      "text": "England beat New Zealand 37-12 at Twickenham, their biggest win over the All Blacks, with tries from Slade, van Poortvliet, Earl, Chessum and Atkinson; Ireland beat South Africa 20-17."
     },
     {
-      "text": "Gerwyn Price edged Niko Springer 16-15 at the Grand Slam of Darts and meets Kevin Doets, who beat Jermaine Wattimena 16-7, in Sunday's semi-finals."
+      "text": "Kansas City Current beat Washington Spirit 2-1 at Audi Field to win their first NWSL title, with Debinha scoring in stoppage time."
+    },
+    {
+      "text": "Michael van Gerwen beat Tom Sykes 16-11 after both hit nine-darters, and Gian van Veen beat Nathan Aspinall 16-14, so the semi-finals are Doets v Price and van Gerwen v van Veen."
     }
   ],
-  "lookAhead": "Sunday has the Grand Slam semi-finals at 8:00 AM, Manchester United at Liverpool at 11:30 AM, the darts final at 2:30 PM and the Jets at the Chargers at 4:05 PM."
+  "lookAhead": "Tuesday brings Arsenal v Borussia Dortmund at 3:00 PM and the second England T20I in Australia at 3:15 AM, then England v New Zealand again in the Nations Championship on Saturday at 11:40 AM."
 }

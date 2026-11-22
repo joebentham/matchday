@@ -1,30 +1,30 @@
 [
   {
-    "text": "England can reach the Nations Championship final by beating New Zealand, with Borthwick picking his first-choice XV and Fin Smith back at fly-half.",
+    "text": "England beat New Zealand 37-12 at Twickenham, their biggest win over the All Blacks, and meet them again on 28 November in the Nations Championship finals weekend.",
     "sport": "Rugby union",
-    "url": "https://www.irishtimes.com/sport/2026/11/19/england-name-strongest-available-team-for-all-blacks-clash-at-twickenham/",
-    "source": "Irish Times",
-    "kind": "story",
-    "spoiler": false
-  },
-  {
-    "text": "Gerwyn Price survived two match darts to beat Niko Springer 16-15 at the Grand Slam of Darts and now faces Kevin Doets in the semi-finals.",
-    "sport": "Darts",
-    "url": "https://www.skysports.com/darts/news/13610214/grand-slam-of-darts-2026-schedule-new-format-players-prize-money-past-winners-as-luke-littler-looks-to-retain-title",
+    "url": "https://www.skysports.com/rugby-union/england-vs-new-zealand/111694",
     "source": "Sky Sports",
     "kind": "story",
     "spoiler": false
   },
   {
-    "text": "Wakamotoharu beat Aonishiki on day 14 to stay in the Kyushu sumo title race, with Onosato and Atamifuji also alive going into Sunday's final day.",
-    "sport": "Sumo",
-    "url": "https://tachiai.org/2026/11/21/kyushu-2026-day-fourteen/",
-    "source": "Tachiai",
+    "text": "Kansas City Current beat Washington Spirit 2-1 to win their first NWSL title, Debinha scoring in stoppage time and the Spirit losing a third straight final.",
+    "sport": "Women's soccer",
+    "url": "https://www.aljazeera.com/sports/2026/11/22/kansas-city-current-nwsl-2026-final-washington-spirit-womens-soccer",
+    "source": "Al Jazeera",
     "kind": "story",
     "spoiler": false
   },
   {
-    "text": "The Grand Slam of Curling National in Sydney, Nova Scotia reaches its playoffs on Saturday with the finals on Sunday, and Rachel Homan, who has four titles there, opened with a win.",
+    "text": "Michael van Gerwen and Tom Sykes both hit nine-darters in their Grand Slam of Darts quarter-final, which van Gerwen won to reach an all-Dutch semi-final with Gian van Veen.",
+    "sport": "Darts",
+    "url": "https://skysports.com/darts/news/13614710/grand-slam-of-darts-michael-van-gerwen-proves-he-is-still-a-force-to-be-reckoned-with-after-reaching-semi-finals",
+    "source": "Sky Sports",
+    "kind": "story",
+    "spoiler": false
+  },
+  {
+    "text": "The Grand Slam of Curling National in Sydney, Nova Scotia reaches its finals on Sunday, and Rachel Homan, who has four titles there, opened with a win.",
     "sport": "Curling",
     "url": "https://www.tsn.ca/curling/article/homan-einarson-open-with-wins-at-grand-slam-of-curling-national-stop/",
     "source": "TSN",
@@ -32,15 +32,7 @@
     "spoiler": false
   },
   {
-    "text": "The Washington Spirit and Kansas City Current meet in the NWSL Championship tonight at 8:00 PM New York time at Audi Field, on CBS and Paramount+.",
-    "sport": "Women's soccer",
-    "url": "https://ussoccer.com/stories/2026/11/federation/weekly-recap-uswnt-usmnt-nwsl-playoffs-u17-womens-world-cup",
-    "source": "U.S. Soccer",
-    "kind": "event",
-    "spoiler": false
-  },
-  {
-    "text": "The 2-8 Jets, who have lost five straight and not scored a touchdown in two games, visit the 1-8 Chargers on Sunday with Geno Smith expected to start if healthy.",
+    "text": "The 2-8 Jets, who have lost five straight, visit the 1-8 Chargers on Sunday at 4:05 PM New York time.",
     "sport": "NFL",
     "url": "https://amny.com/sports/jets-chargers-pre-11-18-26/",
     "source": "amNY",
