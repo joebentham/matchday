@@ -1,23 +1,16 @@
 {
-  "date": "2026-11-22",
-  "headline": "Sunday has the Grand Slam of Darts semi-finals at 8:00 AM, Manchester United at Liverpool at 11:30 AM, the darts final at 2:30 PM and the Jets at the Chargers at 4:05 PM.",
+  "date": "2026-11-23",
+  "headline": "A quiet Monday for your teams, with Arsenal v Borussia Dortmund at 3:00 PM and England's second T20I in Australia at 3:15 AM both on Tuesday.",
   "today": [
-    "4:05 PM: New York Jets at Los Angeles Chargers, NFL, Hulu Live (Fox).",
-    "11:30 AM: Manchester United at Liverpool, Premier League, Hulu Live.",
-    "2:30 PM: Grand Slam of Darts final, ESPN+/Hulu Live.",
-    "8:00 AM: Grand Slam of Darts semi-finals (Doets v Price, van Gerwen v van Veen), ESPN+/Hulu Live.",
-    "12:30 PM: Carolina Hurricanes at New York Rangers, NHL, NHL Network/MSG Networks."
+    "No Tier 1 events today; the next are Tuesday's England T20I (3:15 AM, Willow) and Arsenal v Borussia Dortmund (3:00 PM, Paramount+)."
   ],
   "recaps": [
     {
-      "text": "England beat New Zealand 37-12 at Twickenham, their biggest win over the All Blacks, with tries from Slade, van Poortvliet, Earl, Chessum and Atkinson; Ireland beat South Africa 20-17."
+      "text": "Gerwyn Price beat Gian van Veen 16-11 in the Grand Slam of Darts final to win his first major in four years and move up to world No 3."
     },
     {
-      "text": "Kansas City Current beat Washington Spirit 2-1 at Audi Field to win their first NWSL title, with Debinha scoring in stoppage time."
-    },
-    {
-      "text": "Michael van Gerwen beat Tom Sykes 16-11 after both hit nine-darters, and Gian van Veen beat Nathan Aspinall 16-14, so the semi-finals are Doets v Price and van Gerwen v van Veen."
+      "text": "Carlos Alcaraz beat top seed Alexander Zverev 6-2 7-6 in the ATP Finals final in Turin, winning the season-ending event for the first time."
     }
   ],
-  "lookAhead": "Tuesday brings Arsenal v Borussia Dortmund at 3:00 PM and the second England T20I in Australia at 3:15 AM, then England v New Zealand again in the Nations Championship on Saturday at 11:40 AM."
+  "lookAhead": "Thursday's third T20I and Saturday's England v New Zealand Nations Championship game (11:40 AM) lead into Sunday 29 November, with Arsenal v Manchester City at 11:30 AM and the Jets at the Dolphins at 1:00 PM."
 }

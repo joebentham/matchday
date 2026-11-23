@@ -1,8 +1,16 @@
 [
   {
-    "text": "England beat New Zealand 37-12 at Twickenham, their biggest win over the All Blacks, and meet them again on 28 November in the Nations Championship finals weekend.",
-    "sport": "Rugby union",
-    "url": "https://www.skysports.com/rugby-union/england-vs-new-zealand/111694",
+    "text": "Gerwyn Price beat Gian van Veen 16-11 to win the Grand Slam of Darts for a fourth time, ending a four-year wait for a major.",
+    "sport": "Darts",
+    "url": "https://www.skysports.com/darts/news/13615202/gerwyn-price-roars-to-grand-slam-of-darts-title-with-victory-over-gian-van-veen-to-end-four-year-major-drought",
+    "source": "Sky Sports",
+    "kind": "story",
+    "spoiler": false
+  },
+  {
+    "text": "Carlos Alcaraz beat Alexander Zverev 6-2 7-6 to win the ATP Finals for the first time, joining Agassi, Federer and Djokovic with a career Grand Slam and the title.",
+    "sport": "Tennis",
+    "url": "https://www.skysports.com/tennis/news/13615397/atp-finals-carlos-alcaraz-beats-world-no-1-alexander-zverev-in-blockbuster-final-to-claim-title-for-first-time",
     "source": "Sky Sports",
     "kind": "story",
     "spoiler": false
@@ -16,26 +24,18 @@
     "spoiler": false
   },
   {
-    "text": "Michael van Gerwen and Tom Sykes both hit nine-darters in their Grand Slam of Darts quarter-final, which van Gerwen won to reach an all-Dutch semi-final with Gian van Veen.",
+    "text": "Luke Littler and The King's Trust have launched an opportunity fund to help young people in the north west of England into work.",
     "sport": "Darts",
-    "url": "https://skysports.com/darts/news/13614710/grand-slam-of-darts-michael-van-gerwen-proves-he-is-still-a-force-to-be-reckoned-with-after-reaching-semi-finals",
+    "url": "https://www.skysports.com/darts/news/13615360/luke-littler-values-legacy-and-darts-titles-over-money-as-he-launches-initiative-to-help-reduce-youth-unemployment",
     "source": "Sky Sports",
     "kind": "story",
     "spoiler": false
   },
   {
-    "text": "The Grand Slam of Curling National in Sydney, Nova Scotia reaches its finals on Sunday, and Rachel Homan, who has four titles there, opened with a win.",
-    "sport": "Curling",
-    "url": "https://www.tsn.ca/curling/article/homan-einarson-open-with-wins-at-grand-slam-of-curling-national-stop/",
-    "source": "TSN",
-    "kind": "event",
-    "spoiler": false
-  },
-  {
-    "text": "The 2-8 Jets, who have lost five straight, visit the 1-8 Chargers on Sunday at 4:05 PM New York time.",
-    "sport": "NFL",
-    "url": "https://amny.com/sports/jets-chargers-pre-11-18-26/",
-    "source": "amNY",
+    "text": "England beat New Zealand 37-12 at Twickenham, their biggest win over the All Blacks, and meet them again on 28 November in the Nations Championship finals weekend.",
+    "sport": "Rugby union",
+    "url": "https://www.skysports.com/rugby-union/england-vs-new-zealand/111694",
+    "source": "Sky Sports",
     "kind": "story",
     "spoiler": false
   }
