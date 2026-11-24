@@ -1,1 +1,25 @@
-[]
+[
+  {
+    "id": "manual-chess-wcc-2026-g1",
+    "sport": "chess",
+    "league": "FIDE World Championship",
+    "title": "Gukesh v Sindarov, Game 1",
+    "start": "2026-11-24T14:00:00Z",
+    "timeTbc": true,
+    "tier": "wildcard",
+    "why": "The youngest world championship match in chess history, 14 classical games in Geneva, streamed free on the FIDE YouTube channel.",
+    "watchKeys": [
+      "youtube"
+    ]
+  },
+  {
+    "id": "manual-darts-pcf-2026-r1",
+    "sport": "darts",
+    "league": "PDC Players Championship Finals",
+    "title": "Players Championship Finals, Round One (Stephen Bunting v Max Hopp)",
+    "start": "2026-11-27T12:45:00Z",
+    "timeTbc": true,
+    "tier": "wildcard",
+    "why": "Bunting meets Max Hopp in round one at Minehead on Friday 27 November; his session time has not been announced, and Luke Littler is not in the field."
+  }
+]

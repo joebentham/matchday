@@ -1,16 +1,14 @@
 {
-  "date": "2026-11-23",
-  "headline": "A quiet Monday for your teams, with Arsenal v Borussia Dortmund at 3:00 PM and England's second T20I in Australia at 3:15 AM both on Tuesday.",
+  "date": "2026-11-24",
+  "headline": "Arsenal host Borussia Dortmund in the Champions League at 3:00 PM, while England levelled the T20I series in Australia overnight.",
   "today": [
-    "No Tier 1 events today; the next are Tuesday's England T20I (3:15 AM, Willow) and Arsenal v Borussia Dortmund (3:00 PM, Paramount+)."
+    "9:00 AM: Gukesh v Sindarov, World Chess Championship Game 1 (start time TBC), YouTube",
+    "3:00 PM: Arsenal v Borussia Dortmund, Champions League, Paramount+"
   ],
   "recaps": [
     {
-      "text": "Gerwyn Price beat Gian van Veen 16-11 in the Grand Slam of Darts final to win his first major in four years and move up to world No 3."
-    },
-    {
-      "text": "Carlos Alcaraz beat top seed Alexander Zverev 6-2 7-6 in the ATP Finals final in Turin, winning the season-ending event for the first time."
+      "text": "England chased Australia's 184-8 on the Gold Coast, reaching 188-2 in 13.1 overs to level the T20I series after Australia won the opener by three wickets."
     }
   ],
-  "lookAhead": "Thursday's third T20I and Saturday's England v New Zealand Nations Championship game (11:40 AM) lead into Sunday 29 November, with Arsenal v Manchester City at 11:30 AM and the Jets at the Dolphins at 1:00 PM."
+  "lookAhead": "Friday's third T20I (3:15 AM) and the Players Championship Finals start, Saturday brings England v New Zealand (11:40 AM), and Sunday 29 November has Arsenal v Manchester City (11:30 AM) and the Jets at the Dolphins (1:00 PM)."
 }

@@ -1,18 +1,34 @@
 [
   {
-    "text": "Gerwyn Price beat Gian van Veen 16-11 to win the Grand Slam of Darts for a fourth time, ending a four-year wait for a major.",
-    "sport": "Darts",
-    "url": "https://www.skysports.com/darts/news/13615202/gerwyn-price-roars-to-grand-slam-of-darts-title-with-victory-over-gian-van-veen-to-end-four-year-major-drought",
-    "source": "Sky Sports",
+    "text": "England chased 185 in 13.1 overs on the Gold Coast to beat Australia in the second T20I and level the series.",
+    "sport": "Cricket",
+    "url": "https://www.abc.net.au/news/2026-11-24/australia-vs-england-second-t20i-on-the-gold-coast/107421294",
+    "source": "ABC News",
     "kind": "story",
     "spoiler": false
   },
   {
-    "text": "Carlos Alcaraz beat Alexander Zverev 6-2 7-6 to win the ATP Finals for the first time, joining Agassi, Federer and Djokovic with a career Grand Slam and the title.",
-    "sport": "Tennis",
-    "url": "https://www.skysports.com/tennis/news/13615397/atp-finals-carlos-alcaraz-beats-world-no-1-alexander-zverev-in-blockbuster-final-to-claim-title-for-first-time",
-    "source": "Sky Sports",
-    "kind": "story",
+    "text": "Gukesh and Sindarov, both 20, begin their 14-game world championship match in Geneva today, with commentary from Peter Leko and Peter Svidler on FIDE's YouTube channel.",
+    "sport": "Chess",
+    "url": "https://www.fide.com/?p=51815",
+    "source": "FIDE",
+    "kind": "event",
+    "spoiler": false
+  },
+  {
+    "text": "The Players Championship Finals run 27 to 29 November in Minehead without Luke Littler, Nathan Aspinall or Josh Rock; Stephen Bunting opens against Max Hopp.",
+    "sport": "Darts",
+    "url": "https://www.sportinglife.com/darts/news/players-championship-finals-no-luke-littler-in-minehead-as-draw-is-made-for-final-darts-major-of-2026/235342",
+    "source": "Sporting Life",
+    "kind": "event",
+    "spoiler": false
+  },
+  {
+    "text": "Tyson Fury fights Anthony Joshua at Cardiff's Principality Stadium on 11 December, streaming live on Netflix.",
+    "sport": "Boxing",
+    "url": "https://www.aljazeera.com/sports/2026/9/24/tyson-fury-to-face-british-rival-anthony-joshua-in-cardiff-on-december-11",
+    "source": "Al Jazeera",
+    "kind": "event",
     "spoiler": false
   },
   {
@@ -24,17 +40,17 @@
     "spoiler": false
   },
   {
-    "text": "Luke Littler and The King's Trust have launched an opportunity fund to help young people in the north west of England into work.",
-    "sport": "Darts",
-    "url": "https://www.skysports.com/darts/news/13615360/luke-littler-values-legacy-and-darts-titles-over-money-as-he-launches-initiative-to-help-reduce-youth-unemployment",
+    "text": "Carlos Alcaraz beat Alexander Zverev 6-2 7-6 to win the ATP Finals for the first time.",
+    "sport": "Tennis",
+    "url": "https://www.skysports.com/tennis/news/13615397/atp-finals-carlos-alcaraz-beats-world-no-1-alexander-zverev-in-blockbuster-final-to-claim-title-for-first-time",
     "source": "Sky Sports",
     "kind": "story",
     "spoiler": false
   },
   {
-    "text": "England beat New Zealand 37-12 at Twickenham, their biggest win over the All Blacks, and meet them again on 28 November in the Nations Championship finals weekend.",
-    "sport": "Rugby union",
-    "url": "https://www.skysports.com/rugby-union/england-vs-new-zealand/111694",
+    "text": "Gerwyn Price beat Gian van Veen 16-11 to win the Grand Slam of Darts, ending a four-year wait for a major.",
+    "sport": "Darts",
+    "url": "https://www.skysports.com/darts/news/13615202/gerwyn-price-roars-to-grand-slam-of-darts-title-with-victory-over-gian-van-veen-to-end-four-year-major-drought",
     "source": "Sky Sports",
     "kind": "story",
     "spoiler": false
