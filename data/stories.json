@@ -1,5 +1,13 @@
 [
   {
+    "text": "Gukesh held Sindarov to a draw with Black in Game 1 of the world championship, with Game 2 starting at 9 AM New York time today.",
+    "sport": "Chess",
+    "url": "https://www.chess.com/news/view/2026-fide-world-chess-championship-game-1",
+    "source": "Chess.com",
+    "kind": "story",
+    "spoiler": false
+  },
+  {
     "text": "England chased 185 in 13.1 overs on the Gold Coast to beat Australia in the second T20I and level the series.",
     "sport": "Cricket",
     "url": "https://www.abc.net.au/news/2026-11-24/australia-vs-england-second-t20i-on-the-gold-coast/107421294",
@@ -8,11 +16,27 @@
     "spoiler": false
   },
   {
-    "text": "Gukesh and Sindarov, both 20, begin their 14-game world championship match in Geneva today, with commentary from Peter Leko and Peter Svidler on FIDE's YouTube channel.",
-    "sport": "Chess",
-    "url": "https://www.fide.com/?p=51815",
-    "source": "FIDE",
+    "text": "Mahomes' Chiefs visit Allen's Bills on Thanksgiving night in a game Sky Sports calls the NFL's biggest of the season.",
+    "sport": "NFL",
+    "url": "https://www.skysports.com/nfl/news/12118/13615561/patrick-mahomes-vs-josh-allen-who-will-win-the-nfls-biggest-game-of-the-season-kansas-city-chiefs-and-buffalo-bills-headline-blockbuster-thanksgiving",
+    "source": "Sky Sports",
     "kind": "event",
+    "spoiler": false
+  },
+  {
+    "text": "Charley Hull lost her WTGL debut for Atlanta Drive to Lottie Woad's Boston Common but said she had a great laugh.",
+    "sport": "Golf",
+    "url": "https://www.skysports.com/golf/news/12176/13616265/wtgl-charley-hull-has-great-laugh-on-atlanta-drive-debut-despite-defeat-to-lottie-woads-boston-common",
+    "source": "Sky Sports",
+    "kind": "story",
+    "spoiler": false
+  },
+  {
+    "text": "Arthur Rinderknech denies refusing an anti-doping test after the charge against the French player was confirmed, and expects to be cleared.",
+    "sport": "Tennis",
+    "url": "https://www.skysports.com/tennis/news/12110/13616314/arthur-rinderknech-denies-refusing-to-take-anti-doping-test-after-charge-confirmed-for-french-tennis-player",
+    "source": "Sky Sports",
+    "kind": "story",
     "spoiler": false
   },
   {
@@ -24,15 +48,7 @@
     "spoiler": false
   },
   {
-    "text": "Tyson Fury fights Anthony Joshua at Cardiff's Principality Stadium on 11 December, streaming live on Netflix.",
-    "sport": "Boxing",
-    "url": "https://www.aljazeera.com/sports/2026/9/24/tyson-fury-to-face-british-rival-anthony-joshua-in-cardiff-on-december-11",
-    "source": "Al Jazeera",
-    "kind": "event",
-    "spoiler": false
-  },
-  {
-    "text": "Kansas City Current beat Washington Spirit 2-1 to win their first NWSL title, Debinha scoring in stoppage time and the Spirit losing a third straight final.",
+    "text": "Kansas City Current beat Washington Spirit 2-1 to win their first NWSL title, Debinha scoring in stoppage time.",
     "sport": "Women's soccer",
     "url": "https://www.aljazeera.com/sports/2026/11/22/kansas-city-current-nwsl-2026-final-washington-spirit-womens-soccer",
     "source": "Al Jazeera",
@@ -40,19 +56,11 @@
     "spoiler": false
   },
   {
-    "text": "Carlos Alcaraz beat Alexander Zverev 6-2 7-6 to win the ATP Finals for the first time.",
-    "sport": "Tennis",
-    "url": "https://www.skysports.com/tennis/news/13615397/atp-finals-carlos-alcaraz-beats-world-no-1-alexander-zverev-in-blockbuster-final-to-claim-title-for-first-time",
-    "source": "Sky Sports",
-    "kind": "story",
-    "spoiler": false
-  },
-  {
-    "text": "Gerwyn Price beat Gian van Veen 16-11 to win the Grand Slam of Darts, ending a four-year wait for a major.",
-    "sport": "Darts",
-    "url": "https://www.skysports.com/darts/news/13615202/gerwyn-price-roars-to-grand-slam-of-darts-title-with-victory-over-gian-van-veen-to-end-four-year-major-drought",
-    "source": "Sky Sports",
-    "kind": "story",
+    "text": "Tyson Fury fights Anthony Joshua at Cardiff's Principality Stadium on 11 December, streaming live on Netflix.",
+    "sport": "Boxing",
+    "url": "https://www.aljazeera.com/sports/2026/9/24/tyson-fury-to-face-british-rival-anthony-joshua-in-cardiff-on-december-11",
+    "source": "Al Jazeera",
+    "kind": "event",
     "spoiler": false
   }
 ]

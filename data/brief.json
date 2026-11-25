@@ -1,14 +1,18 @@
 {
-  "date": "2026-11-24",
-  "headline": "Arsenal host Borussia Dortmund in the Champions League at 3:00 PM, while England levelled the T20I series in Australia overnight.",
+  "date": "2026-11-25",
+  "headline": "Gukesh has White against Sindarov in Game 2 of the world chess championship at 9:00 AM, with England's third T20I in Australia due early Friday.",
   "today": [
-    "9:00 AM: Gukesh v Sindarov, World Chess Championship Game 1 (start time TBC), YouTube",
-    "3:00 PM: Arsenal v Borussia Dortmund, Champions League, Paramount+"
+    "9:00 AM: Gukesh v Sindarov, World Chess Championship Game 2, YouTube"
   ],
   "recaps": [
     {
-      "text": "England chased Australia's 184-8 on the Gold Coast, reaching 188-2 in 13.1 overs to level the T20I series after Australia won the opener by three wickets."
+      "text": "Arsenal drew 1-1 with Borussia Dortmund at the Emirates in the Champions League, Viktor Gyokeres scoring for Arsenal and Maximilian Beier equalising for Dortmund.",
+      "spoiler": true,
+      "label": "Arsenal result"
+    },
+    {
+      "text": "Gukesh held Sindarov to a draw with Black in Game 1 of their world championship match in Geneva."
     }
   ],
-  "lookAhead": "Friday's third T20I (3:15 AM) and the Players Championship Finals start, Saturday brings England v New Zealand (11:40 AM), and Sunday 29 November has Arsenal v Manchester City (11:30 AM) and the Jets at the Dolphins (1:00 PM)."
+  "lookAhead": "Thursday brings Thanksgiving NFL including Chiefs at Bills (8:20 PM), Friday has the third T20I (3:15 AM) and the Players Championship Finals, then Saturday England v New Zealand (11:40 AM) and Sunday Arsenal v Manchester City (11:30 AM) and the Jets at the Dolphins (1:00 PM)."
 }

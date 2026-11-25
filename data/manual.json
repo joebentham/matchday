@@ -1,13 +1,12 @@
 [
   {
-    "id": "manual-chess-wcc-2026-g1",
+    "id": "manual-chess-wcc-2026-g2",
     "sport": "chess",
     "league": "FIDE World Championship",
-    "title": "Gukesh v Sindarov, Game 1",
-    "start": "2026-11-24T14:00:00Z",
-    "timeTbc": true,
+    "title": "Gukesh v Sindarov, Game 2",
+    "start": "2026-11-25T14:00:00Z",
     "tier": "wildcard",
-    "why": "The youngest world championship match in chess history, 14 classical games in Geneva, streamed free on the FIDE YouTube channel.",
+    "why": "Gukesh has White in Game 2 of the 14-game world championship match in Geneva after Game 1 was drawn; streamed free on the FIDE YouTube channel.",
     "watchKeys": [
       "youtube"
     ]
