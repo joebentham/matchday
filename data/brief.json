@@ -1,18 +1,16 @@
 {
-  "date": "2026-11-25",
-  "headline": "Gukesh has White against Sindarov in Game 2 of the world chess championship at 9:00 AM (note: the ESPN cricket feed is failing, so cricket listings may be incomplete).",
+  "date": "2026-11-26",
+  "headline": "Thanksgiving brings three NFL games, ending with Chiefs at Bills at 8:20 PM, and Game 3 of the world chess championship at 9:00 AM.",
   "today": [
-    "9:00 AM: Gukesh v Sindarov, World Chess Championship Game 2, YouTube"
+    "9:00 AM: Gukesh v Sindarov, World Chess Championship Game 3, YouTube",
+    "1:00 PM: Bears at Lions, CBS (Hulu Live) or Paramount+",
+    "4:30 PM: Eagles at Cowboys, Fox (Hulu Live)",
+    "8:20 PM: Chiefs at Bills, NBC (Hulu Live) or Peacock"
   ],
   "recaps": [
     {
-      "text": "Arsenal drew 1-1 with Borussia Dortmund at the Emirates in the Champions League, Viktor Gyokeres scoring for Arsenal and Maximilian Beier equalising for Dortmund.",
-      "spoiler": true,
-      "label": "Arsenal result"
-    },
-    {
-      "text": "Gukesh held Sindarov to a draw with Black in Game 1 of their world championship match in Geneva."
+      "text": "Gukesh drew Game 2 of the world championship with White by threefold repetition, so the match with Sindarov is level after two draws."
     }
   ],
-  "lookAhead": "Thursday brings Thanksgiving NFL including Chiefs at Bills (8:20 PM), Friday has the third T20I (3:15 AM) and the Players Championship Finals, then Saturday England v New Zealand (11:40 AM) and Sunday Arsenal v Manchester City (11:30 AM) and the Jets at the Dolphins (1:00 PM)."
+  "lookAhead": "Friday has the third T20I from Brisbane (3:15 AM) and the Players Championship Finals, Saturday England v New Zealand (11:40 AM), and Sunday brings Manchester City at the Emirates (11:30 AM) and the Jets at the Dolphins (1:00 PM)."
 }

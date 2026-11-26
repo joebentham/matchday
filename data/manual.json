@@ -6,10 +6,18 @@
     "title": "Gukesh v Sindarov, Game 2",
     "start": "2026-11-25T14:00:00Z",
     "tier": "wildcard",
-    "why": "Gukesh has White in Game 2 of the 14-game world championship match in Geneva after Game 1 was drawn; streamed free on the FIDE YouTube channel.",
-    "watchKeys": [
-      "youtube"
-    ]
+    "why": "Game 2 of the world championship match in Geneva ended in a draw by threefold repetition, leaving the match level after two draws; streamed free on the FIDE YouTube channel.",
+    "watchKeys": ["youtube"]
+  },
+  {
+    "id": "manual-chess-wcc-2026-g3",
+    "sport": "chess",
+    "league": "FIDE World Championship",
+    "title": "Gukesh v Sindarov, Game 3",
+    "start": "2026-11-26T14:00:00Z",
+    "tier": "wildcard",
+    "why": "Game 3 of the world championship match in Geneva, with both opening games drawn; coverage starts at 9:00 AM New York time and streams free on YouTube.",
+    "watchKeys": ["youtube"]
   },
   {
     "id": "manual-darts-pcf-2026-r1",
@@ -19,6 +27,6 @@
     "start": "2026-11-27T12:45:00Z",
     "timeTbc": true,
     "tier": "wildcard",
-    "why": "Bunting meets Max Hopp in round one at Minehead on Friday 27 November; his session time has not been announced, and Luke Littler is not in the field."
+    "why": "Bunting meets Max Hopp in round one at Minehead on Friday 27 November; sessions run 12:45-17:00 and 19:00-23:00 GMT but his slot has not been announced, and Luke Littler is not in the field."
   }
 ]
