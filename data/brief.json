@@ -1,16 +1,22 @@
 {
-  "date": "2026-11-26",
-  "headline": "Thanksgiving brings three NFL games, ending with Chiefs at Bills at 8:20 PM, and Game 3 of the world chess championship at 9:00 AM.",
+  "date": "2026-11-27",
+  "headline": "Friday brings the first day of the Players Championship Finals in Minehead, with Stephen Bunting v Max Hopp closing the evening session, plus Rangers at Blackhawks and Heat at Knicks.",
   "today": [
-    "9:00 AM: Gukesh v Sindarov, World Chess Championship Game 3, YouTube",
-    "1:00 PM: Bears at Lions, CBS (Hulu Live) or Paramount+",
-    "4:30 PM: Eagles at Cowboys, Fox (Hulu Live)",
-    "8:20 PM: Chiefs at Bills, NBC (Hulu Live) or Peacock"
+    "2:00 PM: PDC Players Championship Finals evening session starts, with Bunting v Hopp last on Stage Two (time TBC), ESPN+",
+    "2:45 PM: Paris FC at Brest, Ligue 1, beIN Sports (not on your services)",
+    "5:30 PM: Rangers at Blackhawks, Hulu Live",
+    "7:00 PM: Heat at Knicks, Prime Video"
   ],
   "recaps": [
     {
-      "text": "Gukesh drew Game 2 of the world championship with White by threefold repetition, so the match with Sindarov is level after two draws."
+      "text": "England beat Australia by seven wickets (DLS) in the third T20I at the Gabba, with Jamie Overton taking 5 for 12, to lead the series 2-1."
+    },
+    {
+      "text": "Bears beat the Lions 39-35 on Rome Odunze's late touchdown to lead the NFC North, and Bills beat the Chiefs 13-10 in the rain on a 57-yard Tyler Bass field goal."
+    },
+    {
+      "text": "Gukesh and Sindarov drew Game 3 of the world championship in 60 moves, leaving the match level at 1.5-1.5 before Friday's rest day."
     }
   ],
-  "lookAhead": "Friday has the third T20I from Brisbane (3:15 AM) and the Players Championship Finals, Saturday England v New Zealand (11:40 AM), and Sunday brings Manchester City at the Emirates (11:30 AM) and the Jets at the Dolphins (1:00 PM)."
+  "lookAhead": "Saturday has chess Game 4 (9:00 AM), the UK Championship snooker from 8:00 AM, and England v New Zealand in the Nations Championship (11:40 AM); Sunday has the Jets at the Dolphins (1:00 PM) and Manchester City at Arsenal (11:30 AM)."
 }

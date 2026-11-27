@@ -1,32 +1,45 @@
 [
   {
-    "id": "manual-chess-wcc-2026-g2",
-    "sport": "chess",
-    "league": "FIDE World Championship",
-    "title": "Gukesh v Sindarov, Game 2",
-    "start": "2026-11-25T14:00:00Z",
-    "tier": "wildcard",
-    "why": "Game 2 of the world championship match in Geneva ended in a draw by threefold repetition, leaving the match level after two draws; streamed free on the FIDE YouTube channel.",
-    "watchKeys": ["youtube"]
-  },
-  {
     "id": "manual-chess-wcc-2026-g3",
     "sport": "chess",
     "league": "FIDE World Championship",
     "title": "Gukesh v Sindarov, Game 3",
     "start": "2026-11-26T14:00:00Z",
     "tier": "wildcard",
-    "why": "Game 3 of the world championship match in Geneva, with both opening games drawn; coverage starts at 9:00 AM New York time and streams free on YouTube.",
-    "watchKeys": ["youtube"]
+    "why": "Game 3 of the world championship match in Geneva ended in a 60-move draw, leaving it tied 1.5-1.5; streamed free on YouTube.",
+    "watchKeys": [
+      "youtube"
+    ]
   },
   {
     "id": "manual-darts-pcf-2026-r1",
     "sport": "darts",
     "league": "PDC Players Championship Finals",
     "title": "Players Championship Finals, Round One (Stephen Bunting v Max Hopp)",
-    "start": "2026-11-27T12:45:00Z",
+    "start": "2026-11-27T19:00:00Z",
     "timeTbc": true,
     "tier": "wildcard",
-    "why": "Bunting meets Max Hopp in round one at Minehead on Friday 27 November; sessions run 12:45-17:00 and 19:00-23:00 GMT but his slot has not been announced, and Luke Littler is not in the field."
+    "why": "Bunting meets Max Hopp in round one at Minehead, the last match on Stage Two in the evening session that starts at 2:00 PM New York time; Luke Littler did not qualify."
+  },
+  {
+    "id": "manual-chess-wcc-2026-g4",
+    "sport": "chess",
+    "league": "FIDE World Championship",
+    "title": "Gukesh v Sindarov, Game 4",
+    "start": "2026-11-28T14:00:00Z",
+    "tier": "wildcard",
+    "why": "Game 4 of the world championship match in Geneva follows Friday's rest day, with the match level at 1.5-1.5; play starts at 15:00 Geneva time and streams free on YouTube.",
+    "watchKeys": [
+      "youtube"
+    ]
+  },
+  {
+    "id": "manual-snooker-uk-2026-d1",
+    "sport": "snooker",
+    "league": "UK Championship",
+    "title": "UK Championship, first day (York)",
+    "start": "2026-11-28T13:00:00Z",
+    "tier": "wildcard",
+    "why": "The UK Championship opens at the York Barbican with sessions at 1 PM and 7 PM UK time (8 AM and 2 PM New York); US broadcaster not confirmed."
   }
 ]

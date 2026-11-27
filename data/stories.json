@@ -1,22 +1,46 @@
 [
   {
-    "text": "Gukesh drew Game 2 against Sindarov by threefold repetition, leaving the world championship match level, with Game 3 starting at 9 AM New York time today.",
+    "text": "England beat Australia by seven wickets (DLS) in the third T20I as Jamie Overton took a career-best 5 for 12, and lead the series 2-1.",
+    "sport": "Cricket",
+    "url": "https://www.tapmad.com/blog/aus-vs-eng-3rd-t20i-overtons-five-for-seals-7-wicket-win/9127-5-0",
+    "source": "Tapmad",
+    "kind": "story",
+    "spoiler": false
+  },
+  {
+    "text": "Gukesh and Sindarov drew Game 3 in 60 moves to level the world championship at 1.5-1.5, with Game 4 on Saturday after a rest day.",
     "sport": "Chess",
-    "url": "https://en.chessbase.com/post/world-championship-2026-2",
+    "url": "https://en.chessbase.com/post/world-championship-2026-live",
     "source": "ChessBase",
     "kind": "story",
     "spoiler": false
   },
   {
-    "text": "Bears and Lions are both 8-2 for Thanksgiving, with Chiefs at Bills closing the NFL's three-game slate on NBC at 8:20 PM tonight.",
+    "text": "Bears beat the Lions 39-35 after Rome Odunze's touchdown with three seconds left, taking the NFC North lead at 9-2.",
     "sport": "NFL",
-    "url": "https://www.si.com/nfl/nfl-thanksgiving-schedule-2026-teams-kickoff-times-how-to-watch-01kr4pmfqw93",
-    "source": "Sports Illustrated",
+    "url": "https://www.nfl.com/news/thanksgiving-tripleheader-what-we-learned-from-bears-lions-eagles-cowboys-chiefs-bills",
+    "source": "NFL.com",
+    "kind": "story",
+    "spoiler": false
+  },
+  {
+    "text": "The UK Championship snooker opens in York on Saturday with sessions at 1 PM and 7 PM UK time.",
+    "sport": "Snooker",
+    "url": "https://www.yorkbarbican.co.uk/whats-on/snooker-2026/",
+    "source": "York Barbican",
     "kind": "event",
     "spoiler": false
   },
   {
-    "text": "Charley Hull lost her WTGL debut for Atlanta Drive to Lottie Woad's Boston Common but said she had a great laugh.",
+    "text": "The Players Championship Finals start in Minehead without defending champion Luke Littler, who did not qualify; Stephen Bunting v Max Hopp closes Friday's evening Stage Two.",
+    "sport": "Darts",
+    "url": "https://www.skysports.com/darts/news/13616018/players-championship-finals-2026-schedule-and-order-of-play-as-gerwyn-price-eyes-another-major-title-in-minehead",
+    "source": "Sky Sports",
+    "kind": "event",
+    "spoiler": false
+  },
+  {
+    "text": "Charley Hull's Atlanta Drive lost 8-3 to Lottie Woad's Boston Common in the WTGL, though Hull won her singles against Celine Boutier.",
     "sport": "Golf",
     "url": "https://www.skysports.com/golf/news/12176/13616265/wtgl-charley-hull-has-great-laugh-on-atlanta-drive-debut-despite-defeat-to-lottie-woads-boston-common",
     "source": "Sky Sports",
@@ -24,27 +48,11 @@
     "spoiler": false
   },
   {
-    "text": "Arthur Rinderknech denies refusing an anti-doping test after the charge against the French player was confirmed, and expects to be cleared.",
+    "text": "Arthur Rinderknech denies refusing an anti-doping test in June after the ITIA confirmed a charge, and has requested an independent tribunal hearing.",
     "sport": "Tennis",
     "url": "https://www.skysports.com/tennis/news/12110/13616314/arthur-rinderknech-denies-refusing-to-take-anti-doping-test-after-charge-confirmed-for-french-tennis-player",
     "source": "Sky Sports",
     "kind": "story",
-    "spoiler": false
-  },
-  {
-    "text": "The Players Championship Finals run 27 to 29 November in Minehead without Luke Littler, Nathan Aspinall or Josh Rock; Stephen Bunting opens against Max Hopp.",
-    "sport": "Darts",
-    "url": "https://www.sportinglife.com/darts/news/players-championship-finals-no-luke-littler-in-minehead-as-draw-is-made-for-final-darts-major-of-2026/235342",
-    "source": "Sporting Life",
-    "kind": "event",
-    "spoiler": false
-  },
-  {
-    "text": "Tyson Fury fights Anthony Joshua at Cardiff's Principality Stadium on 11 December, streaming live on Netflix.",
-    "sport": "Boxing",
-    "url": "https://www.aljazeera.com/sports/2026/9/24/tyson-fury-to-face-british-rival-anthony-joshua-in-cardiff-on-december-11",
-    "source": "Al Jazeera",
-    "kind": "event",
     "spoiler": false
   }
 ]
