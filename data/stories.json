@@ -1,30 +1,30 @@
 [
   {
-    "text": "England beat Australia by seven wickets (DLS) in the third T20I as Jamie Overton took a career-best 5 for 12, and lead the series 2-1.",
-    "sport": "Cricket",
-    "url": "https://www.tapmad.com/blog/aus-vs-eng-3rd-t20i-overtons-five-for-seals-7-wicket-win/9127-5-0",
-    "source": "Tapmad",
+    "text": "England host New Zealand again in the Nations Championship third-place play-off, a week after their record 37-12 win, with Steve Borthwick making five changes.",
+    "sport": "Rugby",
+    "url": "https://www.skysports.com/rugby-union/news/13616401/england-vs-new-zealand-tommy-freeman-returns-as-steve-borthwick-makes-five-changes-for-all-blacks-rematch-in-nations-championship",
+    "source": "Sky Sports",
+    "kind": "event",
+    "spoiler": false
+  },
+  {
+    "text": "Stephen Bunting beat Max Hopp 6-5 at the Players Championship Finals, where Gerwyn Price and top seed Wessel Nijman both went out in round one.",
+    "sport": "Darts",
+    "url": "https://www.skysports.com/darts/news/13616018/players-championship-finals-2026-schedule-and-order-of-play-as-gerwyn-price-eyes-another-major-title-in-minehead",
+    "source": "Sky Sports",
     "kind": "story",
     "spoiler": false
   },
   {
-    "text": "Gukesh and Sindarov drew Game 3 in 60 moves to level the world championship at 1.5-1.5, with Game 4 on Saturday after a rest day.",
+    "text": "Gukesh and Sindarov return for Game 4 of the world championship on Saturday, level at 1.5-1.5 after a 60-move draw in Game 3.",
     "sport": "Chess",
     "url": "https://en.chessbase.com/post/world-championship-2026-live",
     "source": "ChessBase",
-    "kind": "story",
+    "kind": "event",
     "spoiler": false
   },
   {
-    "text": "Bears beat the Lions 39-35 after Rome Odunze's touchdown with three seconds left, taking the NFC North lead at 9-2.",
-    "sport": "NFL",
-    "url": "https://www.nfl.com/news/thanksgiving-tripleheader-what-we-learned-from-bears-lions-eagles-cowboys-chiefs-bills",
-    "source": "NFL.com",
-    "kind": "story",
-    "spoiler": false
-  },
-  {
-    "text": "The UK Championship snooker opens in York on Saturday with sessions at 1 PM and 7 PM UK time.",
+    "text": "The UK Championship snooker opens at the York Barbican on Saturday and runs to 6 December, with sessions at 1 PM and 7 PM UK time.",
     "sport": "Snooker",
     "url": "https://www.yorkbarbican.co.uk/whats-on/snooker-2026/",
     "source": "York Barbican",
@@ -32,11 +32,11 @@
     "spoiler": false
   },
   {
-    "text": "The Players Championship Finals start in Minehead without defending champion Luke Littler, who did not qualify; Stephen Bunting v Max Hopp closes Friday's evening Stage Two.",
-    "sport": "Darts",
-    "url": "https://www.skysports.com/darts/news/13616018/players-championship-finals-2026-schedule-and-order-of-play-as-gerwyn-price-eyes-another-major-title-in-minehead",
-    "source": "Sky Sports",
-    "kind": "event",
+    "text": "England beat Australia by seven wickets (DLS) in the third T20I as Jamie Overton took a career-best 5 for 12, and lead the series 2-1.",
+    "sport": "Cricket",
+    "url": "https://www.tapmad.com/blog/aus-vs-eng-3rd-t20i-overtons-five-for-seals-7-wicket-win/9127-5-0",
+    "source": "Tapmad",
+    "kind": "story",
     "spoiler": false
   },
   {

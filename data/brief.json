@@ -1,22 +1,20 @@
 {
-  "date": "2026-11-27",
-  "headline": "Friday brings the first day of the Players Championship Finals in Minehead, with Stephen Bunting v Max Hopp closing the evening session, plus Rangers at Blackhawks and Heat at Knicks.",
+  "date": "2026-11-28",
+  "headline": "England meet New Zealand in the Nations Championship third-place play-off at Twickenham (11:40 AM), with chess Game 4 and the UK Championship snooker also starting today.",
   "today": [
-    "2:00 PM: PDC Players Championship Finals evening session starts, with Bunting v Hopp last on Stage Two (time TBC), ESPN+",
-    "2:45 PM: Paris FC at Brest, Ligue 1, beIN Sports (not on your services)",
-    "5:30 PM: Rangers at Blackhawks, Hulu Live",
-    "7:00 PM: Heat at Knicks, Prime Video"
+    "11:40 AM: England v New Zealand, Nations Championship third-place play-off, RugbyPass TV",
+    "10:00 AM: Reading at Sheffield Wednesday and Oxford United at Luton Town, League One, Paramount+",
+    "9:00 AM: Gukesh v Sindarov, world chess championship Game 4, YouTube",
+    "8:00 AM: UK Championship snooker opens in York (US broadcaster TBC)",
+    "7:00 PM: Calgary Flames at Rangers, NHL Network/MSG Networks (not on your services)"
   ],
   "recaps": [
     {
-      "text": "England beat Australia by seven wickets (DLS) in the third T20I at the Gabba, with Jamie Overton taking 5 for 12, to lead the series 2-1."
+      "text": "Stephen Bunting beat Max Hopp 6-5 in round one of the Players Championship Finals, where Gerwyn Price and top seed Wessel Nijman both lost."
     },
     {
-      "text": "Bears beat the Lions 39-35 on Rome Odunze's late touchdown to lead the NFC North, and Bills beat the Chiefs 13-10 in the rain on a 57-yard Tyler Bass field goal."
-    },
-    {
-      "text": "Gukesh and Sindarov drew Game 3 of the world championship in 60 moves, leaving the match level at 1.5-1.5 before Friday's rest day."
+      "text": "Rangers lost 2-1 at the Blackhawks and the Knicks lost 108-105 to the Heat at Madison Square Garden."
     }
   ],
-  "lookAhead": "Saturday has chess Game 4 (9:00 AM), the UK Championship snooker from 8:00 AM, and England v New Zealand in the Nations Championship (11:40 AM); Sunday has the Jets at the Dolphins (1:00 PM) and Manchester City at Arsenal (11:30 AM)."
+  "lookAhead": "Sunday has Manchester City at Arsenal (11:30 AM), the Jets at the Dolphins (1:00 PM) and the fourth T20I from Sydney (3:15 AM); Wednesday brings the fifth T20I and Arsenal at Brentford."
 }
